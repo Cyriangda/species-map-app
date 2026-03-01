@@ -1,47 +1,107 @@
 import streamlit as st
 import pandas as pd
-import geopandas as gpd
 import plotly.express as px
 
-st.title("🌍 Distribution des espèces")
+st.set_page_config(layout="wide")
 
-# Charger données
-df = pd.read_csv("df_final.csv")          # species × pays × status
-gdf = gpd.read_file("countries.geojson")  # GeoJSON des pays
-df_species = pd.read_csv("df_species.csv")  # caractéristiques espèces
+st.title("🌍 Distribution mondiale des espèces")
 
-# Filtre statut
-status_selected = st.selectbox(
-    "Choisir le statut",
-    ["Native", "Introduced", "Reintroduced", "Extinct"]
+# ===============================
+# 📂 Charger les données
+# ===============================
+
+@st.cache_data
+def load_data():
+    df_dist = pd.read_csv("df_final.csv")
+    df_species = pd.read_csv("df_species.csv")
+    return df_dist, df_species
+
+df_dist, df_species = load_data()
+
+# Harmonisation si nécessaire
+df_dist.rename(columns={"species_ID": "species_id"}, inplace=True)
+
+# ===============================
+# 🎛 Filtre statut
+# ===============================
+
+status_options = ["Native", "Introduced", "Reintroduced", "Extinct"]
+
+selected_status = st.selectbox(
+    "Choisir le statut des espèces :",
+    status_options
 )
 
-# Filtrer selon statut choisi
-df_filtered = df[df["status"] == status_selected]
+df_filtered = df_dist[df_dist["status"] == selected_status]
 
-# Ajouter info espèces
-df_filtered = df_filtered.merge(
-    df_species, on="species_ID", how="left"
+# ===============================
+# 📊 Compter espèces par pays
+# ===============================
+
+country_counts = (
+    df_filtered.groupby("ISO3")["species_id"]
+    .nunique()
+    .reset_index()
 )
 
-# Compter nombre d'espèces par pays
-country_counts = df_filtered.groupby("ISO3")["species_ID"].nunique().reset_index()
-country_counts.rename(columns={"species_ID": "nb_species"}, inplace=True)
+country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
 
-# Carte choroplèthe avec Plotly
+# ===============================
+# 🗺 Carte interactive
+# ===============================
+
 fig = px.choropleth(
     country_counts,
     locations="ISO3",
-    color="nb_species",
+    color="Nombre d'espèces",
     hover_name="ISO3",
-    color_continuous_scale="Reds"
+    color_continuous_scale="Reds",
+    projection="natural earth"
 )
-st.plotly_chart(fig)
 
-# Liste espèces par pays si on clique
-st.subheader("Détails des espèces")
-for iso3 in country_counts["ISO3"]:
-    st.write(f"**Pays : {iso3}**")
-    species_in_country = df_filtered[df_filtered["ISO3"] == iso3]
-    for _, row in species_in_country.iterrows():
-        st.markdown(f"- {row['species_name']}: {row.get('caracteristiques','')}") 
+fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
+
+st.plotly_chart(fig, use_container_width=True)
+
+# ===============================
+# 🌍 Sélection pays
+# ===============================
+
+st.subheader("🔎 Explorer un pays")
+
+available_countries = country_counts["ISO3"].sort_values().unique()
+
+if len(available_countries) > 0:
+
+    selected_country = st.selectbox(
+        "Sélectionner un pays :",
+        available_countries
+    )
+
+    species_in_country = df_filtered[df_filtered["ISO3"] == selected_country]
+
+    species_in_country = species_in_country.merge(
+        df_species,
+        on="species_id",
+        how="left"
+    )
+
+    # ===============================
+    # 🧬 Liste espèces
+    # ===============================
+
+    st.subheader(f"Espèces en statut '{selected_status}' pour {selected_country}")
+
+    if species_in_country.empty:
+        st.info("Aucune espèce trouvée.")
+    else:
+        for _, row in species_in_country.iterrows():
+            with st.expander(f"{row['full_name']} ({row['english_name']})"):
+
+                st.markdown(f"**Classe :** {row['class']}")
+                st.markdown(f"**Famille :** {row['family']}")
+                st.markdown(f"**Statut CITES :** {row['cites_status']}")
+                st.markdown(f"**Species ID :** {row['species_id']}")
+
+else:
+    st.warning("Aucun pays disponible pour ce statut.")
