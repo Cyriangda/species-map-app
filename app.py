@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
-st.title("🌍 Distribution mondiale des espèces")
+st.title("🌍 Global distribution of endangered species")
 
 # ===============================
 # 📂 Charger les données
@@ -14,6 +14,11 @@ st.title("🌍 Distribution mondiale des espèces")
 def load_data():
     df_dist = pd.read_csv("df_final.csv")
     df_species = pd.read_csv("df_species.csv")
+    
+    # Forcer les types pour merge correct
+    df_dist["species_id"] = df_dist["species_id"].astype(str).str.strip()
+    df_species["species_id"] = df_species["species_id"].astype(str).str.strip()
+    
     return df_dist, df_species
 
 df_dist, df_species = load_data()
@@ -28,7 +33,7 @@ df_dist.rename(columns={"species_ID": "species_id"}, inplace=True)
 status_options = ["Native", "Introduced", "Reintroduced", "Extinct"]
 
 selected_status = st.selectbox(
-    "Choisir le statut des espèces :",
+    "Select species status :",
     status_options
 )
 
@@ -67,7 +72,7 @@ st.plotly_chart(fig, use_container_width=True)
 # 🌍 Sélection pays
 # ===============================
 
-st.subheader("🔎 Explorer un pays")
+st.subheader("🔎 Explore a country")
 
 available_countries = country_counts["ISO3"].sort_values().unique()
 
@@ -105,11 +110,11 @@ if len(available_countries) > 0:
     st.subheader(f"Espèces en statut '{selected_status}' pour {selected_country}")
 
     if species_in_country.empty:
-        st.info("Aucune espèce trouvée.")
+        st.info("No species found.")
     else:
         for _, row in species_in_country.iterrows():
 
-            full_name = row.get("full_name", "Nom inconnu")
+            full_name = row.get("full_name", "Unknown name")
             english_name = row.get("english_name", "")
             species_class = row.get("class", "")
             family = row.get("family", "")
