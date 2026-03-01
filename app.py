@@ -81,10 +81,19 @@ if len(available_countries) > 0:
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country]
 
     species_in_country = species_in_country.merge(
-        df_species,
-        on="species_id",
-        how="left"
-    )
+    df_species[
+        [
+            "species_id",
+            "class",
+            "family",
+            "full_name",
+            "english_name",
+            "cites_status"
+        ]
+    ],
+    on="species_id",
+    how="left"
+)
 
     # ===============================
     # 🧬 Liste espèces
@@ -96,12 +105,19 @@ if len(available_countries) > 0:
         st.info("Aucune espèce trouvée.")
     else:
         for _, row in species_in_country.iterrows():
-            with st.expander(f"{row['full_name']} ({row['english_name']})"):
 
-                st.markdown(f"**Classe :** {row['class']}")
-                st.markdown(f"**Famille :** {row['family']}")
-                st.markdown(f"**Statut CITES :** {row['cites_status']}")
-                st.markdown(f"**Species ID :** {row['species_id']}")
+    full_name = row.get("full_name", "Nom inconnu")
+    english_name = row.get("english_name", "")
+    species_class = row.get("class", "")
+    family = row.get("family", "")
+    cites = row.get("cites_status", "")
+
+    with st.expander(f"{full_name} ({english_name})"):
+
+        st.markdown(f"**Classe :** {species_class}")
+        st.markdown(f"**Famille :** {family}")
+        st.markdown(f"**Statut CITES :** {cites}")
+        st.markdown(f"**Species ID :** {row['species_id']}")
 
 else:
     st.warning("Aucun pays disponible pour ce statut.")
