@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Global Species Map")
 st.title("🌍 Global distribution of endangered species")
 
 # ------------------------------
@@ -26,13 +26,31 @@ selected_status = st.selectbox("Select species status:", status_options)
 df_filtered = df_dist[df_dist["status"] == selected_status]
 
 # ------------------------------
+# Filtre classe facultatif
+# ------------------------------
+classes_available = df_species["class"].dropna().unique()
+selected_class = st.selectbox("Optional: filter by class:", ["All"] + list(classes_available))
+if selected_class != "All":
+    species_ids_class = df_species[df_species["class"] == selected_class]["species_id"].unique()
+    df_filtered = df_filtered[df_filtered["species_id"].isin(species_ids_class)]
+
+# ------------------------------
+# KPI
+# ------------------------------
+total_species = df_filtered["species_id"].nunique()
+total_countries = df_filtered["ISO3"].nunique()
+col1, col2 = st.columns(2)
+col1.metric("Total species", total_species)
+col2.metric("Total countries", total_countries)
+
+# ------------------------------
 # Compter espèces par pays
 # ------------------------------
 country_counts = df_filtered.groupby("ISO3")["species_id"].nunique().reset_index()
 country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
 
 # ------------------------------
-# Carte choropleth
+# Carte choropleth Plotly
 # ------------------------------
 fig = px.choropleth(
     country_counts,
@@ -43,21 +61,19 @@ fig = px.choropleth(
     projection="natural earth"
 )
 fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
-
 st.subheader("Click on a country to see its species")
-# ⚠️ Afficher la figure une seule fois
 chart = st.plotly_chart(fig, use_container_width=True)
 
 # ------------------------------
 # Récupérer le pays cliqué
 # ------------------------------
-click_data = chart.clickData  # uniquement à partir de l'objet renvoyé par plotly_chart
+click_data = chart.clickData
 selected_country = None
 if click_data and "points" in click_data:
     selected_country = click_data["points"][0]["location"]
 
 # ------------------------------
-# Espèces dans le pays sélectionné
+# Affichage des espèces du pays
 # ------------------------------
 if selected_country:
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country].merge(
@@ -67,7 +83,6 @@ if selected_country:
     )
 
     st.subheader(f"Species in {selected_country} with status '{selected_status}'")
-
     if species_in_country.empty:
         st.info("No species found.")
     else:
@@ -79,9 +94,9 @@ if selected_country:
             cites = row.get("cites_status", "")
 
             with st.expander(f"{full_name} ({english_name})"):
-                st.markdown(f"**Classe :** {species_class}")
-                st.markdown(f"**Famille :** {family}")
-                st.markdown(f"**Statut CITES :** {cites}")
+                st.markdown(f"**Class :** {species_class}")
+                st.markdown(f"**Family :** {family}")
+                st.markdown(f"**CITES status :** {cites}")
                 st.markdown(f"**Species ID :** {row['species_id']}")
 else:
     st.info("Click on a country in the map to see its species.")
