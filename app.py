@@ -106,18 +106,17 @@ if len(available_countries) > 0:
     else:
         for _, row in species_in_country.iterrows():
 
-    full_name = row.get("full_name", "Nom inconnu")
-    english_name = row.get("english_name", "")
-    species_class = row.get("class", "")
-    family = row.get("family", "")
-    cites = row.get("cites_status", "")
+            full_name = row.get("full_name", "Nom inconnu")
+            english_name = row.get("english_name", "")
+            species_class = row.get("class", "")
+            family = row.get("family", "")
+            cites = row.get("cites_status", "")
 
-    with st.expander(f"{full_name} ({english_name})"):
+            with st.expander(f"{full_name} ({english_name})"):
 
-        st.markdown(f"**Classe :** {species_class}")
-        st.markdown(f"**Famille :** {family}")
-        st.markdown(f"**Statut CITES :** {cites}")
-        st.markdown(f"**Species ID :** {row['species_id']}")
-
+                st.markdown(f"**Classe :** {species_class}")
+                st.markdown(f"**Famille :** {family}")
+                st.markdown(f"**Statut CITES :** {cites}")
+                st.markdown(f"**Species ID :** {row['species_id']}")
 else:
     st.warning("Aucun pays disponible pour ce statut.")
