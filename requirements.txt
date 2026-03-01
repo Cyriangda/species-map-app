@@ -3,3 +3,5 @@ pandas
 geopandas
 plotly
 openpyxl
+streamlit-folium
+folium
