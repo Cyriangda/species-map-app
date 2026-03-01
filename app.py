@@ -79,9 +79,9 @@ if len(available_countries) > 0:
     )
 
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country]
-    
-    df_dist["species_id"] = df_dist["species_id"].astype(str)
-    df_species["species_id"] = df_species["species_id"].astype(str)
+
+    df_dist["species_id"] = df_dist["species_id"].astype(str).str.strip()
+    df_species["species_id"] = df_species["species_id"].astype(str).str.strip()
 
     species_in_country = species_in_country.merge(
     df_species[
