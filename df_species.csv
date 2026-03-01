@@ -1,0 +1,933 @@
+species_id,class,family,full_name,english_name,cites_status
+98337,Mammalia,Felidae,Herpailurus yagouaroundi,Jaguarundi,Appendix I / II – Status depends on population
+6330,Mammalia,Felidae,Puma concolor,Cougar (Mountain Lion,Appendix I / II – Status depends on population
+12219,Mammalia,Mustelidae,Aonyx capensis microdon,Cameroon Clawless Otter (subspecies),Appendix I / II – Status depends on population
+9829,Mammalia,Ursidae,Ursus arctos,Brown Bear,Appendix I / II – Status depends on population
+5062,Mammalia,Antilocapridae,Antilocapra americana,Pronghorn,Appendix I – Species threatened with extinction
+4464,Mammalia,Bovidae,Addax nasomaculatus,Addax,Appendix I – Species threatened with extinction
+3905,Mammalia,Bovidae,Ammotragus lervia,Barbary Sheep (Aoudad),Appendix II – Trade regulated
+4985,Mammalia,Bovidae,Antilope cervicapra,Blackbuck,Appendix III – National protection
+5874,Mammalia,Bovidae,Bos gaurus,Gaur,Appendix I – Species threatened with extinction
+7471,Mammalia,Bovidae,Bos mutus,Wild Yak,Appendix I – Species threatened with extinction
+11180,Mammalia,Bovidae,Bos sauveli,Kouprey,Appendix I – Species threatened with extinction
+65574,Mammalia,Bovidae,Boselaphus tragocamelus,Nilgai (Blue Bull),Appendix III – National protection
+6811,Mammalia,Bovidae,Bubalus arnee,Wild Water Buffalo,Appendix III – National protection
+4425,Mammalia,Bovidae,Bubalus depressicornis,Lowland Anoa,Appendix I – Species threatened with extinction
+8124,Mammalia,Bovidae,Bubalus mindorensis,Tamaraw,Appendix I – Species threatened with extinction
+10958,Mammalia,Bovidae,Bubalus quarlesi,Mountain Anoa,Appendix I – Species threatened with extinction
+3135,Mammalia,Bovidae,Budorcas taxicolor,Takin,Appendix II – Trade regulated
+67978,Mammalia,Bovidae,Capra caucasica,West Caucasian Tur,Appendix II – Trade regulated
+3780,Mammalia,Bovidae,Capra falconeri,Markhor,Appendix I – Species threatened with extinction
+65582,Mammalia,Bovidae,Capra hircus aegagrus,Wild Goat (Bezoar Ibex),Appendix III – National protection
+65566,Mammalia,Bovidae,Capra sibirica,Siberian Ibex,Appendix III – National protection
+3881,Mammalia,Bovidae,Capricornis milneedwardsii,Chinese Serow,Appendix I – Species threatened with extinction
+3939,Mammalia,Bovidae,Capricornis rubidus,Red Serow,Appendix I – Species threatened with extinction
+7979,Mammalia,Bovidae,Capricornis sumatraensis,Sumatran Serow,Appendix I – Species threatened with extinction
+10594,Mammalia,Bovidae,Capricornis thar,Himalayan Serow,Appendix I – Species threatened with extinction
+8418,Mammalia,Bovidae,Cephalophus brookei,Brooke's Duiker,Appendix II – Trade regulated
+4497,Mammalia,Bovidae,Cephalophus dorsalis,Bay Duiker,Appendix II – Trade regulated
+4194,Mammalia,Bovidae,Cephalophus jentinki,Jentink's Duiker,Appendix I – Species threatened with extinction
+8002,Mammalia,Bovidae,Cephalophus ogilbyi,Ogilby's Duiker,Appendix II – Trade regulated
+10119,Mammalia,Bovidae,Cephalophus silvicultor,Yellow-backed Duiker,Appendix II – Trade regulated
+7092,Mammalia,Bovidae,Cephalophus zebra,Zebra Duiker,Appendix II – Trade regulated
+12162,Mammalia,Bovidae,Damaliscus pygargus pygargus,Bontebok,Appendix II – Trade regulated
+65567,Mammalia,Bovidae,Gazella bennettii,Chinkara (Indian Gazelle),Appendix III – National protection
+3080,Mammalia,Bovidae,Gazella cuvieri,Cuvier's Gazelle,Appendix I – Species threatened with extinction
+5673,Mammalia,Bovidae,Gazella dorcas,Dorcas Gazelle,Appendix III – National protection
+9611,Mammalia,Bovidae,Gazella leptoceros,Rhim Gazelle (Slender-horned Gazelle),Appendix I – Species threatened with extinction
+12301,Mammalia,Bovidae,Hippotragus niger variani,Giant Sable Antelope,Appendix I – Species threatened with extinction
+4050,Mammalia,Bovidae,Kobus leche,Lechwe,Appendix II – Trade regulated
+4344,Mammalia,Bovidae,Naemorhedus baileyi,Red Goral,Appendix I – Species threatened with extinction
+7159,Mammalia,Bovidae,Naemorhedus caudatus,Long-tailed Goral,Appendix I – Species threatened with extinction
+9378,Mammalia,Bovidae,Naemorhedus goral,Himalayan Goral,Appendix I – Species threatened with extinction
+6231,Mammalia,Bovidae,Naemorhedus griseus,Chinese Goral,Appendix I – Species threatened with extinction
+10002,Mammalia,Bovidae,Nanger dama,Dama Gazelle,Appendix I – Species threatened with extinction
+11205,Mammalia,Bovidae,Oryx dammah,Scimitar-horned Oryx,Appendix I – Species threatened with extinction
+4154,Mammalia,Bovidae,Oryx leucoryx,Arabian Oryx,Appendix I – Species threatened with extinction
+7093,Mammalia,Bovidae,Ovis ammon,Argali,Appendix II – Trade regulated
+35596,Mammalia,Bovidae,Ovis arabica,Arabian Wild Sheep,Appendix II – Trade regulated
+98436,Mammalia,Bovidae,Ovis bochariensis,Bukhara Urial (Uzbek Urial),Appendix II – Trade regulated
+3036,Mammalia,Bovidae,Ovis canadensis,Bighorn Sheep,Appendix II – Trade regulated
+98883,Mammalia,Bovidae,Ovis collium,Kazakhstan Argali,Appendix II – Trade regulated
+98424,Mammalia,Bovidae,Ovis cycloceros,Afghan Urial,Appendix II – Trade regulated
+98884,Mammalia,Bovidae,Ovis darwini,Gobi Argali (Darwin's Argali),Appendix II – Trade regulated
+33589,Mammalia,Bovidae,Ovis gmelini,Anatolian Wild Sheep (Mouflon),Appendix I – Species threatened with extinction
+98423,Mammalia,Bovidae,Ovis hodgsoni,Tibetan Argali,Appendix I – Species threatened with extinction
+32866,Mammalia,Bovidae,Ovis jubata,Manchurian Argali,Appendix II – Trade regulated
+98885,Mammalia,Bovidae,Ovis karelini,Tianshan Argali,Appendix II – Trade regulated
+30824,Mammalia,Bovidae,Ovis nigrimontana,Karaganda Argali,Appendix I – Species threatened with extinction
+98886,Mammalia,Bovidae,Ovis polii,Marco Polo Argali,Appendix II – Trade regulated
+98952,Mammalia,Bovidae,Ovis punjabiensis,Punjab Urial,Appendix II – Trade regulated
+98887,Mammalia,Bovidae,Ovis severtzovi,Severtzov's Argali,Appendix II – Trade regulated
+4814,Mammalia,Bovidae,Ovis vignei,Ladakh Urial,Appendix I – Species threatened with extinction
+8117,Mammalia,Bovidae,Pantholops hodgsonii,Chiru (Tibetan Antelope),Appendix I – Species threatened with extinction
+101271,Mammalia,Bovidae,Philantomba maxwellii,Maxwell's Duiker,Appendix II – Trade regulated
+9997,Mammalia,Bovidae,Philantomba monticola,Blue Duiker,Appendix II – Trade regulated
+65584,Mammalia,Bovidae,Pseudois nayaur,Bharal (Blue Sheep),Appendix III – National protection
+10395,Mammalia,Bovidae,Pseudoryx nghetinhensis,Saola,Appendix I – Species threatened with extinction
+12328,Mammalia,Bovidae,Rupicapra pyrenaica ornata,Abruzzo Chamois,Appendix II – Trade regulated
+9751,Mammalia,Bovidae,Saiga borealis,Altai Saiga,Appendix II – Trade regulated
+8765,Mammalia,Bovidae,Saiga tatarica,Saiga Antelope,Appendix II – Trade regulated
+9831,Mammalia,Bovidae,Tetracerus quadricornis,Four-horned Antelope,Appendix III – National protection
+10716,Mammalia,Camelidae,Lama guanicoe,Guanaco,Appendix II – Trade regulated
+3436,Mammalia,Camelidae,Vicugna vicugna,Vicuña,Appendix I / II – Status depends on population
+4889,Mammalia,Cervidae,Axis calamianensis,Calamian Deer,Appendix I – Species threatened with extinction
+10380,Mammalia,Cervidae,Axis kuhlii,Kuhl's Deer (Bawean Deer),Appendix I – Species threatened with extinction
+3218,Mammalia,Cervidae,Axis porcinus,Hog Deer,Appendix III – National protection
+12317,Mammalia,Cervidae,Axis porcinus annamiticus,Indochinese Hog Deer,Appendix I – Species threatened with extinction
+3625,Mammalia,Cervidae,Blastocerus dichotomus,Marsh Deer,Appendix I – Species threatened with extinction
+12260,Mammalia,Cervidae,Cervus elaphus bactrianus,Bactrian Deer,Appendix II – Trade regulated
+12327,Mammalia,Cervidae,Cervus elaphus barbarus,Barbary Deer,Appendix III – National protection
+12225,Mammalia,Cervidae,Cervus elaphus hanglu,Hangul (Kashmir Stag),Appendix I – Species threatened with extinction
+12218,Mammalia,Cervidae,Dama dama mesopotamica,Persian Fallow Deer,Appendix I – Species threatened with extinction
+9206,Mammalia,Cervidae,Hippocamelus antisensis,North Andean Deer (Taruca),Appendix I – Species threatened with extinction
+10636,Mammalia,Cervidae,Hippocamelus bisulcus,South Andean Deer (Huemul),Appendix I – Species threatened with extinction
+12217,Mammalia,Cervidae,Mazama temama cerasina,Central American Red Brocket,Appendix III – National protection
+8941,Mammalia,Cervidae,Muntiacus crinifrons,Black Muntjac,Appendix I – Species threatened with extinction
+34430,Mammalia,Cervidae,Muntiacus vuquangensis,Large-antlered Muntjac (Giant Muntjac),Appendix I – Species threatened with extinction
+12333,Mammalia,Cervidae,Odocoileus virginianus mayensis,Guatemalan White-tailed Deer,Appendix III – National protection
+8832,Mammalia,Cervidae,Ozotoceros bezoarticus,Pampas Deer,Appendix I – Species threatened with extinction
+5742,Mammalia,Cervidae,Pudu mephistophiles,Northern Pudu,Appendix II – Trade regulated
+10291,Mammalia,Cervidae,Pudu puda,Southern Pudu,Appendix I – Species threatened with extinction
+10612,Mammalia,Cervidae,Rucervus duvaucelii,Barasingha (Swamp Deer),Appendix I – Species threatened with extinction
+4547,Mammalia,Cervidae,Rucervus eldii,Eld's Deer (Thamin),Appendix I – Species threatened with extinction
+98186,Mammalia,Giraffidae,Giraffa camelopardalis,Giraffe (Northern Giraffe),Appendix II – Trade regulated
+11049,Mammalia,Hippopotamidae,Hexaprotodon liberiensis,Pygmy Hippopotamus,Appendix II – Trade regulated
+9229,Mammalia,Hippopotamidae,Hippopotamus amphibius,Common Hippopotamus,Appendix II – Trade regulated
+4120,Mammalia,Moschidae,Moschus anhuiensis,Anhui Musk Deer,Appendix II – Trade regulated
+9114,Mammalia,Moschidae,Moschus berezovskii,Forest Musk Deer,Appendix II – Trade regulated
+9271,Mammalia,Moschidae,Moschus chrysogaster,Alpine Musk Deer,Appendix I / II – Status depends on population
+8689,Mammalia,Moschidae,Moschus cupreus,Kashmir Musk Deer,Appendix I – Species threatened with extinction
+9694,Mammalia,Moschidae,Moschus fuscus,Black Musk Deer,Appendix I / II – Status depends on population
+10323,Mammalia,Moschidae,Moschus leucogaster,White-bellied Musk Deer,Appendix I – Species threatened with extinction
+5311,Mammalia,Moschidae,Moschus moschiferus,Siberian Musk Deer,Appendix II – Trade regulated
+3372,Mammalia,Suidae,Babyrousa babyrussa,Buru Babirusa,Appendix I – Species threatened with extinction
+8703,Mammalia,Suidae,Babyrousa bolabatuensis,Bola Batu Babirusa,Appendix I – Species threatened with extinction
+7226,Mammalia,Suidae,Babyrousa celebensis,North Sulawesi Babirusa,Appendix I – Species threatened with extinction
+6992,Mammalia,Suidae,Babyrousa togeanensis,Togian Babirusa,Appendix I – Species threatened with extinction
+7791,Mammalia,Suidae,Sus salvanius,Pygmy Hog,Appendix I – Species threatened with extinction
+8725,Mammalia,Tayassuidae,Catagonus wagneri,Chacoan Peccary,Appendix I – Species threatened with extinction
+8246,Mammalia,Tayassuidae,Pecari tajacu,Collared Peccary,Appendix II – Trade regulated
+5827,Mammalia,Tayassuidae,Tayassu pecari,White-lipped Peccary,Appendix II – Trade regulated
+7583,Mammalia,Ailuridae,Ailurus fulgens,Red Panda,Appendix I – Species threatened with extinction
+9412,Mammalia,Canidae,Canis aureus,Golden Jackal,Appendix III – National protection
+4442,Mammalia,Canidae,Canis lupus,Gray Wolf,Appendix I / II – Status depends on population
+5656,Mammalia,Canidae,Cerdocyon thous,Crab-eating Fox,Appendix II – Trade regulated
+6975,Mammalia,Canidae,Chrysocyon brachyurus,Maned Wolf,Appendix II – Trade regulated
+5289,Mammalia,Canidae,Cuon alpinus,Dhole (Asiatic Wild Dog),Appendix II – Trade regulated
+8023,Mammalia,Canidae,Lycalopex culpaeus,Culpeo,Appendix II – Trade regulated
+7195,Mammalia,Canidae,Lycalopex fulvipes,Darwin's Fox,Appendix II – Trade regulated
+8142,Mammalia,Canidae,Lycalopex griseus,South American Gray Fox,Appendix II – Trade regulated
+8201,Mammalia,Canidae,Lycalopex gymnocercus,Pampas Fox,Appendix II – Trade regulated
+7041,Mammalia,Canidae,Speothos venaticus,Bush Dog,Appendix I – Species threatened with extinction
+7752,Mammalia,Canidae,Vulpes bengalensis,Bengal Fox,Appendix III – National protection
+9199,Mammalia,Canidae,Vulpes cana,Blanford's Fox,Appendix II – Trade regulated
+12245,Mammalia,Canidae,Vulpes vulpes griffithi,Griffith's Red Fox (subspecies),Appendix III – National protection
+12177,Mammalia,Canidae,Vulpes vulpes montana,Montane Red Fox (subspecies),Appendix III – National protection
+12174,Mammalia,Canidae,Vulpes vulpes pusilla,Desert Fox (subspecies),Appendix III – National protection
+8895,Mammalia,Canidae,Vulpes zerda,Fennec Fox,Appendix II – Trade regulated
+9088,Mammalia,Eupleridae,Cryptoprocta ferox,Fossa,Appendix II – Trade regulated
+7930,Mammalia,Eupleridae,Eupleres goudotii,Falanouc,Appendix II – Trade regulated
+8387,Mammalia,Eupleridae,Fossa fossana,Spotted Fanaloka,Appendix II – Trade regulated
+8935,Mammalia,Felidae,Acinonyx jubatus,Cheetah,Appendix I – Species threatened with extinction
+66085,Mammalia,Felidae,Caracal aurata,African Golden Cat,Appendix II – Trade regulated
+4645,Mammalia,Felidae,Caracal caracal,Caracal,Appendix I / II – Status depends on population
+5147,Mammalia,Felidae,Catopuma badia,Bay Cat,Appendix II – Trade regulated
+8985,Mammalia,Felidae,Catopuma temminckii,Asian Golden Cat,Appendix I – Species threatened with extinction
+11144,Mammalia,Felidae,Felis bieti,Chinese Mountain Cat,Appendix II – Trade regulated
+9395,Mammalia,Felidae,Felis chaus,Jungle Cat,Appendix II – Trade regulated
+36712,Mammalia,Felidae,Felis lybica,African Wildcat,Appendix II – Trade regulated
+9009,Mammalia,Felidae,Felis margarita,Sand Cat,Appendix II – Trade regulated
+6355,Mammalia,Felidae,Felis nigripes,Black-footed Cat,Appendix I – Species threatened with extinction
+7300,Mammalia,Felidae,Felis silvestris,European Wildcat,Appendix II – Trade regulated
+98332,Mammalia,Felidae,Leopardus colocola,Pampas Cat,Appendix II – Trade regulated
+3167,Mammalia,Felidae,Leopardus geoffroyi,Geoffroy's Cat,Appendix I – Species threatened with extinction
+7534,Mammalia,Felidae,Leopardus guigna,Guigna (Kodkod),Appendix II – Trade regulated
+98882,Mammalia,Felidae,Leopardus guttulus,Southern Tiger Cat,Appendix I – Species threatened with extinction
+98335,Mammalia,Felidae,Leopardus jacobita,Andean Cat,Appendix I – Species threatened with extinction
+10120,Mammalia,Felidae,Leopardus pardalis,Ocelot,Appendix I – Species threatened with extinction
+3399,Mammalia,Felidae,Leopardus tigrinus,Oncilla (Northern Tiger Cat),Appendix I – Species threatened with extinction
+4427,Mammalia,Felidae,Leopardus wiedii,Margay,Appendix I – Species threatened with extinction
+9160,Mammalia,Felidae,Leptailurus serval,Serval,Appendix II – Trade regulated
+7928,Mammalia,Felidae,Lynx canadensis,Canada Lynx,Appendix II – Trade regulated
+7414,Mammalia,Felidae,Lynx lynx,Eurasian Lynx,Appendix II – Trade regulated
+8879,Mammalia,Felidae,Lynx pardinus,Iberian Lynx,Appendix I – Species threatened with extinction
+4992,Mammalia,Felidae,Lynx rufus,Bobcat,Appendix II – Trade regulated
+35601,Mammalia,Felidae,Neofelis diardi,Sunda Clouded Leopard,Appendix I – Species threatened with extinction
+10199,Mammalia,Felidae,Neofelis nebulosa,Clouded Leopard,Appendix I – Species threatened with extinction
+98338,Mammalia,Felidae,Otocolobus manul,Pallas's Cat,Appendix II – Trade regulated
+6353,Mammalia,Felidae,Panthera leo,Lion,Appendix I / II – Status depends on population
+6385,Mammalia,Felidae,Panthera onca,Jaguar,Appendix I – Species threatened with extinction
+8619,Mammalia,Felidae,Panthera pardus,Leopard,Appendix I – Species threatened with extinction
+6047,Mammalia,Felidae,Panthera tigris,Tiger,Appendix I – Species threatened with extinction
+32743,Mammalia,Felidae,Panthera uncia,Snow Leopard,Appendix I – Species threatened with extinction
+7454,Mammalia,Felidae,Pardofelis marmorata,Marbled Cat,Appendix I – Species threatened with extinction
+10598,Mammalia,Felidae,Prionailurus bengalensis,Leopard Cat,Appendix II – Trade regulated
+12271,Mammalia,Felidae,Prionailurus bengalensis bengalensis,Leopard Cat (mainland subspecies),Appendix I / II – Status depends on population
+98333,Mammalia,Felidae,Prionailurus javanensis,Sunda Leopard Cat,Appendix II – Trade regulated
+9833,Mammalia,Felidae,Prionailurus planiceps,Flat-headed Cat,Appendix I – Species threatened with extinction
+9151,Mammalia,Felidae,Prionailurus rubiginosus,Rusty-spotted Cat,Appendix I / II – Status depends on population
+8400,Mammalia,Felidae,Prionailurus viverrinus,Fishing Cat,Appendix II – Trade regulated
+10277,Mammalia,Herpestidae,Herpestes edwardsi,Indian Gray Mongoose,Appendix III – National protection
+7168,Mammalia,Herpestidae,Herpestes fuscus,Indian Brown Mongoose,Appendix III – National protection
+6973,Mammalia,Herpestidae,Herpestes javanicus,Small Asian Mongoose,Appendix III – National protection
+12195,Mammalia,Herpestidae,Herpestes javanicus auropunctatus,Small Asian Mongoose (introduced subspecies),Appendix III – National protection
+6814,Mammalia,Herpestidae,Herpestes smithii,Ruddy Mongoose,Appendix III – National protection
+11150,Mammalia,Herpestidae,Herpestes urva,Crab-eating Mongoose,Appendix III – National protection
+8897,Mammalia,Herpestidae,Herpestes vitticollis,Stripe-necked Mongoose,Appendix III – National protection
+10154,Mammalia,Hyaenidae,Hyaena hyaena,Striped Hyena,Appendix III – National protection
+7432,Mammalia,Hyaenidae,Proteles cristata,Aardwolf,Appendix III – National protection
+9154,Mammalia,Mephitidae,Conepatus humboldtii,Humboldt's Hog-nosed Skunk,Appendix II – Trade regulated
+5285,Mammalia,Mustelidae,Aonyx capensis,African Clawless Otter,Appendix II – Trade regulated
+37340,Mammalia,Mustelidae,Aonyx cinereus,Asian Small-clawed Otter,Appendix I – Species threatened with extinction
+7275,Mammalia,Mustelidae,Enhydra lutris,Sea Otter,Appendix II – Trade regulated
+12273,Mammalia,Mustelidae,Enhydra lutris nereis,Southern Sea Otter,Appendix I – Species threatened with extinction
+9899,Mammalia,Mustelidae,Hydrictis maculicollis,Spotted-necked Otter,Appendix II – Trade regulated
+4227,Mammalia,Mustelidae,Lontra canadensis,North American River Otter,Appendix II – Trade regulated
+7817,Mammalia,Mustelidae,Lontra felina,Marine Otter,Appendix I – Species threatened with extinction
+4391,Mammalia,Mustelidae,Lontra longicaudis,Neotropical River Otter,Appendix I – Species threatened with extinction
+5716,Mammalia,Mustelidae,Lontra provocax,Southern River Otter,Appendix I – Species threatened with extinction
+10941,Mammalia,Mustelidae,Lutra lutra,Eurasian Otter,Appendix I – Species threatened with extinction
+3348,Mammalia,Mustelidae,Lutra nippon,Japanese River Otter,Appendix I – Species threatened with extinction
+7756,Mammalia,Mustelidae,Lutra sumatrana,Hairy-nosed Otter,Appendix II – Trade regulated
+7181,Mammalia,Mustelidae,Lutrogale perspicillata,Smooth-coated Otter,Appendix I – Species threatened with extinction
+6787,Mammalia,Mustelidae,Pteronura brasiliensis,Giant Otter,Appendix I – Species threatened with extinction
+6048,Mammalia,Mustelidae,Eira barbara,Tayra,Appendix III – National protection
+8053,Mammalia,Mustelidae,Martes flavigula,Yellow-throated Marten,Appendix III – National protection
+12265,Mammalia,Mustelidae,Martes foina intermedia,Beech Marten (intermediate subspecies),Appendix III – National protection
+7173,Mammalia,Mustelidae,Martes gwatkinsii,Nilgiri Marten,Appendix III – National protection
+9613,Mammalia,Mustelidae,Mellivora capensis,Honey Badger (Ratel),Appendix III – National protection
+10866,Mammalia,Mustelidae,Mustela altaica,Alpine Weasel,Appendix III – National protection
+12172,Mammalia,Mustelidae,Mustela erminea ferghanae,Stoat (Fergana subspecies),Appendix III – National protection
+3096,Mammalia,Mustelidae,Mustela kathiah,Yellow-bellied Weasel,Appendix III – National protection
+10039,Mammalia,Mustelidae,Mustela nigripes,Black-footed Ferret,Appendix I – Species threatened with extinction
+6268,Mammalia,Mustelidae,Mustela sibirica,Siberian Weasel,Appendix III – National protection
+9179,Mammalia,Odobenidae,Odobenus rosmarus,Walrus,Appendix III – National protection
+9396,Mammalia,Otariidae,Arctocephalus australis,South American Fur Seal,Appendix II – Trade regulated
+3522,Mammalia,Otariidae,Arctocephalus forsteri,New Zealand Fur Seal,Appendix II – Trade regulated
+3749,Mammalia,Otariidae,Arctocephalus galapagoensis,Galapagos Fur Seal,Appendix II – Trade regulated
+8289,Mammalia,Otariidae,Arctocephalus gazella,Antarctic Fur Seal,Appendix II – Trade regulated
+3029,Mammalia,Otariidae,Arctocephalus philippii,Juan Fernandez Fur Seal,Appendix II – Trade regulated
+5620,Mammalia,Otariidae,Arctocephalus pusillus,Brown Fur Seal (Cape and Australian),Appendix II – Trade regulated
+8609,Mammalia,Otariidae,Arctocephalus townsendi,Guadalupe Fur Seal,Appendix I – Species threatened with extinction
+5342,Mammalia,Otariidae,Arctocephalus tropicalis,Subantarctic Fur Seal,Appendix II – Trade regulated
+5907,Mammalia,Phocidae,Mirounga leonina,Southern Elephant Seal,Appendix II – Trade regulated
+10844,Mammalia,Phocidae,Monachus monachus,Mediterranean Monk Seal,Appendix I – Species threatened with extinction
+5665,Mammalia,Phocidae,Monachus schauinslandi,Hawaiian Monk Seal,Appendix I – Species threatened with extinction
+6763,Mammalia,Phocidae,Monachus tropicalis,Caribbean Monk Seal (extinct),Appendix I – Species threatened with extinction
+9172,Mammalia,Procyonidae,Nasua narica,White-nosed Coati,Appendix III – National protection
+12253,Mammalia,Procyonidae,Nasua nasua solitaria,South American Coati (solitary subspecies),Appendix III – National protection
+10012,Mammalia,Procyonidae,Potos flavus,Kinkajou,Appendix III – National protection
+3057,Mammalia,Ursidae,Ailuropoda melanoleuca,Giant Panda,Appendix I – Species threatened with extinction
+8151,Mammalia,Ursidae,Helarctos malayanus,Sun Bear,Appendix I – Species threatened with extinction
+7567,Mammalia,Ursidae,Melursus ursinus,Sloth Bear,Appendix I – Species threatened with extinction
+10071,Mammalia,Ursidae,Tremarctos ornatus,Spectacled Bear,Appendix I – Species threatened with extinction
+6525,Mammalia,Ursidae,Ursus americanus,American Black Bear,Appendix II – Trade regulated
+12206,Mammalia,Ursidae,Ursus arctos isabellinus,Himalayan Brown Bear,Appendix I – Species threatened with extinction
+9128,Mammalia,Ursidae,Ursus maritimus,Polar Bear,Appendix II – Trade regulated
+3570,Mammalia,Ursidae,Ursus thibetanus,Asian Black Bear,Appendix I – Species threatened with extinction
+10356,Mammalia,Viverridae,Arctictis binturong,Binturong,Appendix III – National protection
+10223,Mammalia,Viverridae,Civettictis civetta,African Civet,Appendix III – National protection
+10884,Mammalia,Viverridae,Cynogale bennettii,Otter Civet,Appendix II – Trade regulated
+6327,Mammalia,Viverridae,Hemigalus derbyanus,Banded Palm Civet,Appendix II – Trade regulated
+4655,Mammalia,Viverridae,Paguma larvata,Masked Palm Civet,Appendix III – National protection
+4282,Mammalia,Viverridae,Paradoxurus hermaphroditus,Common Palm Civet,Appendix III – National protection
+6090,Mammalia,Viverridae,Paradoxurus jerdoni,Jerdon's Palm Civet,Appendix III – National protection
+3285,Mammalia,Viverridae,Prionodon linsang,Banded Linsang,Appendix II – Trade regulated
+7442,Mammalia,Viverridae,Prionodon pardicolor,Spotted Linsang,Appendix I – Species threatened with extinction
+3685,Mammalia,Viverridae,Viverra civettina,Malabar Civet,Appendix III – National protection
+11288,Mammalia,Viverridae,Viverra zibetha,Large Indian Civet,Appendix III – National protection
+8845,Mammalia,Viverridae,Viverricula indica,Small Indian Civet,Appendix III – National protection
+7903,Mammalia,Balaenidae,Balaena mysticetus,Bowhead Whale,Appendix I – Species threatened with extinction
+6659,Mammalia,Balaenidae,Eubalaena australis,Southern Right Whale,Appendix I – Species threatened with extinction
+11020,Mammalia,Balaenidae,Eubalaena glacialis,North Atlantic Right Whale,Appendix I – Species threatened with extinction
+4989,Mammalia,Balaenidae,Eubalaena japonica,North Pacific Right Whale,Appendix I – Species threatened with extinction
+8288,Mammalia,Balaenopteridae,Balaenoptera acutorostrata,Common Minke Whale,Appendix I / II – Status depends on population
+6477,Mammalia,Balaenopteridae,Balaenoptera bonaerensis,Antarctic Minke Whale,Appendix I – Species threatened with extinction
+3975,Mammalia,Balaenopteridae,Balaenoptera borealis,Sei Whale,Appendix I – Species threatened with extinction
+6352,Mammalia,Balaenopteridae,Balaenoptera edeni,Bryde's Whale,Appendix I – Species threatened with extinction
+10905,Mammalia,Balaenopteridae,Balaenoptera musculus,Blue Whale,Appendix I – Species threatened with extinction
+4329,Mammalia,Balaenopteridae,Balaenoptera omurai,Omura's Whale,Appendix I – Species threatened with extinction
+9445,Mammalia,Balaenopteridae,Balaenoptera physalus,Fin Whale,Appendix I – Species threatened with extinction
+3052,Mammalia,Balaenopteridae,Megaptera novaeangliae,Humpback Whale,Appendix I – Species threatened with extinction
+7265,Mammalia,Delphinidae,Cephalorhynchus commersonii,Commerson's Dolphin,Appendix II – Trade regulated
+10200,Mammalia,Delphinidae,Cephalorhynchus eutropia,Chilean Dolphin,Appendix II – Trade regulated
+4438,Mammalia,Delphinidae,Cephalorhynchus heavisidii,Heaviside's Dolphin,Appendix II – Trade regulated
+5314,Mammalia,Delphinidae,Cephalorhynchus hectori,Hector's Dolphin,Appendix II – Trade regulated
+5623,Mammalia,Delphinidae,Delphinus capensis,Long-beaked Common Dolphin,Appendix II – Trade regulated
+5924,Mammalia,Delphinidae,Delphinus delphis,Short-beaked Common Dolphin,Appendix II – Trade regulated
+3327,Mammalia,Delphinidae,Feresa attenuata,Pygmy Killer Whale,Appendix II – Trade regulated
+8462,Mammalia,Delphinidae,Globicephala macrorhynchus,Short-finned Pilot Whale,Appendix II – Trade regulated
+7046,Mammalia,Delphinidae,Globicephala melas,Long-finned Pilot Whale,Appendix II – Trade regulated
+9702,Mammalia,Delphinidae,Grampus griseus,Risso's Dolphin,Appendix II – Trade regulated
+7197,Mammalia,Delphinidae,Lagenodelphis hosei,Fraser's Dolphin,Appendix II – Trade regulated
+9180,Mammalia,Delphinidae,Lagenorhynchus acutus,Atlantic White-sided Dolphin,Appendix II – Trade regulated
+3918,Mammalia,Delphinidae,Lagenorhynchus albirostris,White-beaked Dolphin,Appendix II – Trade regulated
+6793,Mammalia,Delphinidae,Lagenorhynchus australis,Peale's Dolphin,Appendix II – Trade regulated
+7504,Mammalia,Delphinidae,Lagenorhynchus cruciger,Hourglass Dolphin,Appendix II – Trade regulated
+8540,Mammalia,Delphinidae,Lagenorhynchus obliquidens,Pacific White-sided Dolphin,Appendix II – Trade regulated
+10842,Mammalia,Delphinidae,Lagenorhynchus obscurus,Dusky Dolphin,Appendix II – Trade regulated
+8788,Mammalia,Delphinidae,Lissodelphis borealis,Northern Right Whale Dolphin,Appendix II – Trade regulated
+10448,Mammalia,Delphinidae,Lissodelphis peronii,Southern Right Whale Dolphin,Appendix II – Trade regulated
+9382,Mammalia,Delphinidae,Orcaella brevirostris,Irrawaddy Dolphin,Appendix I – Species threatened with extinction
+11005,Mammalia,Delphinidae,Orcaella heinsohni,Australian Snubfin Dolphin,Appendix I – Species threatened with extinction
+6391,Mammalia,Delphinidae,Orcinus orca,Killer Whale (Orca),Appendix II – Trade regulated
+7820,Mammalia,Delphinidae,Peponocephala electra,Melon-headed Whale,Appendix II – Trade regulated
+6795,Mammalia,Delphinidae,Pseudorca crassidens,False Killer Whale,Appendix II – Trade regulated
+4962,Mammalia,Delphinidae,Sotalia fluviatilis,Tucuxi,Appendix I – Species threatened with extinction
+10624,Mammalia,Delphinidae,Sotalia guianensis,Guiana Dolphin,Appendix I – Species threatened with extinction
+8824,Mammalia,Delphinidae,Sousa chinensis,Indo-Pacific Humpback Dolphin,Appendix I – Species threatened with extinction
+34009,Mammalia,Delphinidae,Sousa plumbea,Indian Ocean Humpback Dolphin,Appendix I – Species threatened with extinction
+67921,Mammalia,Delphinidae,Sousa sahulensis,Australian Humpback Dolphin,Appendix I – Species threatened with extinction
+5245,Mammalia,Delphinidae,Sousa teuszii,Atlantic Humpback Dolphin,Appendix I – Species threatened with extinction
+8989,Mammalia,Delphinidae,Stenella attenuata,Pantropical Spotted Dolphin,Appendix II – Trade regulated
+11236,Mammalia,Delphinidae,Stenella clymene,Clymene Dolphin,Appendix II – Trade regulated
+10064,Mammalia,Delphinidae,Stenella coeruleoalba,Striped Dolphin,Appendix II – Trade regulated
+8215,Mammalia,Delphinidae,Stenella frontalis,Atlantic Spotted Dolphin,Appendix II – Trade regulated
+10191,Mammalia,Delphinidae,Stenella longirostris,Spinner Dolphin,Appendix II – Trade regulated
+6629,Mammalia,Delphinidae,Steno bredanensis,Rough-toothed Dolphin,Appendix II – Trade regulated
+4770,Mammalia,Delphinidae,Tursiops aduncus,Indo-Pacific Bottlenose Dolphin,Appendix II – Trade regulated
+67922,Mammalia,Delphinidae,Tursiops australis,Burrunan Dolphin,Appendix II – Trade regulated
+7086,Mammalia,Delphinidae,Tursiops truncatus,Common Bottlenose Dolphin,Appendix II – Trade regulated
+5138,Mammalia,Eschrichtiidae,Eschrichtius robustus,Gray Whale,Appendix I – Species threatened with extinction
+67923,Mammalia,Iniidae,Inia araguaiaensis,Araguaian River Dolphin,Appendix II – Trade regulated
+4021,Mammalia,Iniidae,Inia geoffrensis,Amazon River Dolphin (Boto),Appendix II – Trade regulated
+4061,Mammalia,Iniidae,Lipotes vexillifer,Baiji (Yangtze River Dolphin) - possibly extinct,Appendix I – Species threatened with extinction
+8842,Mammalia,Iniidae,Pontoporia blainvillei,Franciscana (La Plata Dolphin),Appendix II – Trade regulated
+4206,Mammalia,Monodontidae,Delphinapterus leucas,Beluga,Appendix II – Trade regulated
+8084,Mammalia,Monodontidae,Monodon monoceros,Narwhal,Appendix II – Trade regulated
+8608,Mammalia,Neobalaenidae,Caperea marginata,Pygmy Right Whale,Appendix I – Species threatened with extinction
+68342,Mammalia,Phocoenidae,Neophocaena asiaeorientalis,Narrow-ridged Finless Porpoise,Appendix I – Species threatened with extinction
+9803,Mammalia,Phocoenidae,Neophocaena phocaenoides,Indo-Pacific Finless Porpoise,Appendix I – Species threatened with extinction
+11079,Mammalia,Phocoenidae,Phocoena dioptrica,Spectacled Porpoise,Appendix II – Trade regulated
+11185,Mammalia,Phocoenidae,Phocoena phocoena,Harbour Porpoise,Appendix II – Trade regulated
+5652,Mammalia,Phocoenidae,Phocoena sinus,Vaquita,Appendix I – Species threatened with extinction
+5385,Mammalia,Phocoenidae,Phocoena spinipinnis,Burmeister's Porpoise,Appendix II – Trade regulated
+4956,Mammalia,Phocoenidae,Phocoenoides dalli,Dall's Porpoise,Appendix II – Trade regulated
+6515,Mammalia,Physeteridae,Kogia breviceps,Pygmy Sperm Whale,Appendix II – Trade regulated
+6532,Mammalia,Physeteridae,Kogia sima,Dwarf Sperm Whale,Appendix II – Trade regulated
+10761,Mammalia,Physeteridae,Physeter macrocephalus,Sperm Whale,Appendix I – Species threatened with extinction
+7010,Mammalia,Platanistidae,Platanista gangetica,South Asian River Dolphin (Ganges and Indus),Appendix I – Species threatened with extinction
+7840,Mammalia,Ziphiidae,Berardius arnuxii,Arnoux's Beaked Whale,Appendix I – Species threatened with extinction
+9048,Mammalia,Ziphiidae,Berardius bairdii,Baird's Beaked Whale,Appendix I – Species threatened with extinction
+4979,Mammalia,Ziphiidae,Hyperoodon ampullatus,Northern Bottlenose Whale,Appendix I – Species threatened with extinction
+3957,Mammalia,Ziphiidae,Hyperoodon planifrons,Southern Bottlenose Whale,Appendix I – Species threatened with extinction
+9126,Mammalia,Ziphiidae,Indopacetus pacificus,Tropical Bottlenose Whale (Longman's Beaked Whale),Appendix II – Trade regulated
+6238,Mammalia,Ziphiidae,Mesoplodon bidens,Sowerby's Beaked Whale,Appendix II – Trade regulated
+7528,Mammalia,Ziphiidae,Mesoplodon bowdoini,Andrews' Beaked Whale,Appendix II – Trade regulated
+10363,Mammalia,Ziphiidae,Mesoplodon carlhubbsi,Hubb's Beaked Whale,Appendix II – Trade regulated
+10436,Mammalia,Ziphiidae,Mesoplodon densirostris,Blainville's Beaked Whale,Appendix II – Trade regulated
+8883,Mammalia,Ziphiidae,Mesoplodon europaeus,Gervais' Beaked Whale,Appendix II – Trade regulated
+10466,Mammalia,Ziphiidae,Mesoplodon ginkgodens,Ginkgo-toothed Beaked Whale,Appendix II – Trade regulated
+6913,Mammalia,Ziphiidae,Mesoplodon grayi,Gray's Beaked Whale,Appendix II – Trade regulated
+3188,Mammalia,Ziphiidae,Mesoplodon hectori,Hector's Beaked Whale,Appendix II – Trade regulated
+68344,Mammalia,Ziphiidae,Mesoplodon hotaula,Deraniyagala's Beaked Whale,Appendix II – Trade regulated
+5644,Mammalia,Ziphiidae,Mesoplodon layardii,Strap-toothed Whale,Appendix II – Trade regulated
+8066,Mammalia,Ziphiidae,Mesoplodon mirus,True's Beaked Whale,Appendix II – Trade regulated
+8865,Mammalia,Ziphiidae,Mesoplodon perrini,Perrin's Beaked Whale,Appendix II – Trade regulated
+8605,Mammalia,Ziphiidae,Mesoplodon peruvianus,Pygmy Beaked Whale,Appendix II – Trade regulated
+6746,Mammalia,Ziphiidae,Mesoplodon stejnegeri,Stejneger's Beaked Whale,Appendix II – Trade regulated
+4039,Mammalia,Ziphiidae,Mesoplodon traversii,Spade-toothed Whale,Appendix II – Trade regulated
+8310,Mammalia,Ziphiidae,Tasmacetus shepherdi,Shepherd's Beaked Whale,Appendix II – Trade regulated
+5326,Mammalia,Ziphiidae,Ziphius cavirostris,Cuvier's Beaked Whale,Appendix II – Trade regulated
+11224,Mammalia,Phyllostomidae,Platyrrhinus lineatus,White-lined Broad-nosed Bat,Appendix III – National protection
+7295,Mammalia,Pteropodidae,Acerodon celebensis,Sulawesi Flying Fox,Appendix II – Trade regulated
+10801,Mammalia,Pteropodidae,Acerodon humilis,Talaud Flying Fox,Appendix II – Trade regulated
+9506,Mammalia,Pteropodidae,Acerodon jubatus,Golden-crowned Flying Fox,Appendix I – Species threatened with extinction
+9039,Mammalia,Pteropodidae,Acerodon leucotis,Palawan Flying Fox,Appendix II – Trade regulated
+8207,Mammalia,Pteropodidae,Acerodon mackloti,Sunda Flying Fox,Appendix II – Trade regulated
+6331,Mammalia,Pteropodidae,Pteropus admiralitatum,Admiralty Flying Fox,Appendix II – Trade regulated
+8322,Mammalia,Pteropodidae,Pteropus aldabrensis,Aldabra Flying Fox,Appendix II – Trade regulated
+7779,Mammalia,Pteropodidae,Pteropus alecto,Black Flying Fox,Appendix II – Trade regulated
+7193,Mammalia,Pteropodidae,Pteropus anetianus,Vanuatu Flying Fox,Appendix II – Trade regulated
+9362,Mammalia,Pteropodidae,Pteropus aruensis,Aru Flying Fox,Appendix II – Trade regulated
+5976,Mammalia,Pteropodidae,Pteropus banakrisi,Vanikoro Flying Fox,Appendix II – Trade regulated
+5876,Mammalia,Pteropodidae,Pteropus caniceps,North Moluccan Flying Fox,Appendix II – Trade regulated
+6956,Mammalia,Pteropodidae,Pteropus capistratus,Bismarck Masked Flying Fox,Appendix II – Trade regulated
+10622,Mammalia,Pteropodidae,Pteropus chrysoproctus,Moluccan Flying Fox,Appendix II – Trade regulated
+9535,Mammalia,Pteropodidae,Pteropus cognatus,Makin's Flying Fox,Appendix II – Trade regulated
+3656,Mammalia,Pteropodidae,Pteropus conspicillatus,Spectacled Flying Fox,Appendix II – Trade regulated
+3837,Mammalia,Pteropodidae,Pteropus dasymallus,Ryukyu Flying Fox,Appendix II – Trade regulated
+9279,Mammalia,Pteropodidae,Pteropus faunulus,Andaman Flying Fox,Appendix II – Trade regulated
+5905,Mammalia,Pteropodidae,Pteropus fundatus,Banks Flying Fox,Appendix II – Trade regulated
+8067,Mammalia,Pteropodidae,Pteropus giganteus,Indian Flying Fox,Appendix II – Trade regulated
+7082,Mammalia,Pteropodidae,Pteropus gilliardorum,Gilliard's Flying Fox,Appendix II – Trade regulated
+9966,Mammalia,Pteropodidae,Pteropus griseus,Gray Flying Fox,Appendix II – Trade regulated
+8182,Mammalia,Pteropodidae,Pteropus howensis,Ontong Java Flying Fox,Appendix II – Trade regulated
+6025,Mammalia,Pteropodidae,Pteropus hypomelanus,Small Flying Fox,Appendix II – Trade regulated
+4040,Mammalia,Pteropodidae,Pteropus insularis,Chuuk Flying Fox,Appendix I – Species threatened with extinction
+10896,Mammalia,Pteropodidae,Pteropus intermedius,Intermediate Flying Fox,Appendix II – Trade regulated
+6654,Mammalia,Pteropodidae,Pteropus keyensis,Kei Flying Fox,Appendix II – Trade regulated
+7001,Mammalia,Pteropodidae,Pteropus leucopterus,White-winged Flying Fox,Appendix II – Trade regulated
+10856,Mammalia,Pteropodidae,Pteropus livingstonii,Livingstone's Flying Fox,Appendix II – Trade regulated
+9092,Mammalia,Pteropodidae,Pteropus lombocensis,Lombok Flying Fox,Appendix II – Trade regulated
+3627,Mammalia,Pteropodidae,Pteropus loochoensis,Ryukyu Fruit Bat,Appendix I – Species threatened with extinction
+5642,Mammalia,Pteropodidae,Pteropus lylei,Lyle's Flying Fox,Appendix II – Trade regulated
+4717,Mammalia,Pteropodidae,Pteropus macrotis,Big-eared Flying Fox,Appendix II – Trade regulated
+5831,Mammalia,Pteropodidae,Pteropus mahaganus,Sanborn's Flying Fox,Appendix II – Trade regulated
+8325,Mammalia,Pteropodidae,Pteropus mariannus,Marianas Flying Fox,Appendix I – Species threatened with extinction
+7762,Mammalia,Pteropodidae,Pteropus melanopogon,Black-bearded Flying Fox,Appendix II – Trade regulated
+5434,Mammalia,Pteropodidae,Pteropus melanotus,Black-eared Flying Fox,Appendix II – Trade regulated
+10438,Mammalia,Pteropodidae,Pteropus molossinus,Caroline Flying Fox,Appendix I – Species threatened with extinction
+6729,Mammalia,Pteropodidae,Pteropus neohibernicus,Great Flying Fox,Appendix II – Trade regulated
+7372,Mammalia,Pteropodidae,Pteropus niger,Greater Mascarene Flying Fox,Appendix II – Trade regulated
+7139,Mammalia,Pteropodidae,Pteropus nitendiensis,Vanikoro Flying Fox,Appendix II – Trade regulated
+4670,Mammalia,Pteropodidae,Pteropus ocularis,New Britain Flying Fox,Appendix II – Trade regulated
+9516,Mammalia,Pteropodidae,Pteropus ornatus,Ornate Flying Fox,Appendix II – Trade regulated
+3198,Mammalia,Pteropodidae,Pteropus pelewensis,Palau Flying Fox,Appendix I – Species threatened with extinction
+7428,Mammalia,Pteropodidae,Pteropus personatus,Masked Flying Fox,Appendix II – Trade regulated
+3370,Mammalia,Pteropodidae,Pteropus pilosus,Palawan Fruit Bat,Appendix I – Species threatened with extinction
+9327,Mammalia,Pteropodidae,Pteropus pohlei,Geelvink Bay Flying Fox,Appendix II – Trade regulated
+10543,Mammalia,Pteropodidae,Pteropus poliocephalus,Gray-headed Flying Fox,Appendix II – Trade regulated
+6599,Mammalia,Pteropodidae,Pteropus pselaphon,Bonin Flying Fox,Appendix II – Trade regulated
+6540,Mammalia,Pteropodidae,Pteropus pumilus,Little Golden-mantled Flying Fox,Appendix II – Trade regulated
+8086,Mammalia,Pteropodidae,Pteropus rayneri,Solomon Flying Fox,Appendix II – Trade regulated
+8136,Mammalia,Pteropodidae,Pteropus rennelli,Rennell Flying Fox,Appendix II – Trade regulated
+8058,Mammalia,Pteropodidae,Pteropus rodricensis,Rodrigues Flying Fox,Appendix II – Trade regulated
+3113,Mammalia,Pteropodidae,Pteropus rufus,Madagascan Flying Fox,Appendix II – Trade regulated
+8274,Mammalia,Pteropodidae,Pteropus samoensis,Samoan Flying Fox,Appendix I – Species threatened with extinction
+6104,Mammalia,Pteropodidae,Pteropus scapulatus,Little Red Flying Fox,Appendix II – Trade regulated
+10831,Mammalia,Pteropodidae,Pteropus seychellensis,Seychelles Flying Fox,Appendix II – Trade regulated
+9735,Mammalia,Pteropodidae,Pteropus speciosus,Philippine Gray Flying Fox,Appendix II – Trade regulated
+9883,Mammalia,Pteropodidae,Pteropus subniger,Lesser Mascarene Flying Fox (extinct),Appendix II – Trade regulated
+10684,Mammalia,Pteropodidae,Pteropus temminckii,Temminck's Flying Fox,Appendix II – Trade regulated
+7959,Mammalia,Pteropodidae,Pteropus tokudae,Guam Flying Fox (extinct),Appendix II – Trade regulated
+9577,Mammalia,Pteropodidae,Pteropus tonganus,Pacific Flying Fox,Appendix I – Species threatened with extinction
+4008,Mammalia,Pteropodidae,Pteropus tuberculatus,Vanikoro Flying Fox,Appendix II – Trade regulated
+5781,Mammalia,Pteropodidae,Pteropus ualanus,Kosrae Flying Fox,Appendix I – Species threatened with extinction
+7631,Mammalia,Pteropodidae,Pteropus vampyrus,Large Flying Fox,Appendix II – Trade regulated
+4191,Mammalia,Pteropodidae,Pteropus vetulus,New Caledonia Flying Fox,Appendix II – Trade regulated
+8190,Mammalia,Pteropodidae,Pteropus voeltzkowi,Pemba Flying Fox,Appendix II – Trade regulated
+9546,Mammalia,Pteropodidae,Pteropus woodfordi,Woodford's Flying Fox,Appendix II – Trade regulated
+7938,Mammalia,Pteropodidae,Pteropus yapensis,Yap Flying Fox,Appendix I – Species threatened with extinction
+9146,Mammalia,Dasypodidae,Cabassous tatouay,Greater Naked-tailed Armadillo,Appendix III – National protection
+5522,Mammalia,Dasypodidae,Chaetophractus nationi,Andean Hairy Armadillo,Appendix II – Trade regulated
+4416,Mammalia,Dasypodidae,Priodontes maximus,Giant Armadillo,Appendix I – Species threatened with extinction
+8373,Mammalia,Dasyuridae,Sminthopsis longicaudata,Long-tailed Dunnart,Appendix I – Species threatened with extinction
+5227,Mammalia,Dasyuridae,Sminthopsis psammophila,Sandhill Dunnart,Appendix I – Species threatened with extinction
+3236,Mammalia,Macropodidae,Dendrolagus inustus,Grizzled Tree-kangaroo,Appendix II – Trade regulated
+3121,Mammalia,Macropodidae,Dendrolagus ursinus,Ursine Tree-kangaroo,Appendix II – Trade regulated
+10717,Mammalia,Macropodidae,Lagorchestes hirsutus,Rufous Hare-wallaby,Appendix I – Species threatened with extinction
+7642,Mammalia,Macropodidae,Lagostrophus fasciatus,Banded Hare-wallaby,Appendix I – Species threatened with extinction
+6067,Mammalia,Macropodidae,Onychogalea fraenata,Bridled Nail-tail Wallaby,Appendix I – Species threatened with extinction
+4886,Mammalia,Phalangeridae,Phalanger intercastellanus,Southern Common Cuscus,Appendix II – Trade regulated
+4443,Mammalia,Phalangeridae,Phalanger mimicus,Stein's Cuscus,Appendix II – Trade regulated
+5013,Mammalia,Phalangeridae,Phalanger orientalis,Common Spotted Cuscus,Appendix II – Trade regulated
+6401,Mammalia,Phalangeridae,Spilocuscus kraemeri,Admiralty Spotted Cuscus,Appendix II – Trade regulated
+6082,Mammalia,Phalangeridae,Spilocuscus maculatus,Common Spotted Cuscus,Appendix II – Trade regulated
+8763,Mammalia,Phalangeridae,Spilocuscus papuensis,Woila Cuscus,Appendix II – Trade regulated
+5854,Mammalia,Potoroidae,Bettongia gaimardi,Tasmanian Bettong,Appendix I – Species threatened with extinction
+10686,Mammalia,Potoroidae,Bettongia lesueur,Burrowing Bettong (Boodie),Appendix I – Species threatened with extinction
+6709,Mammalia,Potoroidae,Bettongia penicillata,Woylie (Brush-tailed Bettong),Appendix I – Species threatened with extinction
+5740,Mammalia,Potoroidae,Bettongia tropica,Northern Bettong,Appendix I – Species threatened with extinction
+5983,Mammalia,Vombatidae,Lasiorhinus krefftii,Northern Hairy-nosed Wombat,Appendix I – Species threatened with extinction
+8697,Mammalia,Leporidae,Caprolagus hispidus,Hispid Hare,Appendix I – Species threatened with extinction
+10330,Mammalia,Leporidae,Romerolagus diazi,Volcano Rabbit,Appendix I – Species threatened with extinction
+9673,Mammalia,Tachyglossidae,Zaglossus attenboroughi,Sir David's Long-beaked Echidna,Appendix II – Trade regulated
+8784,Mammalia,Tachyglossidae,Zaglossus bartoni,Eastern Long-beaked Echidna,Appendix II – Trade regulated
+4203,Mammalia,Tachyglossidae,Zaglossus bruijni,Western Long-beaked Echidna,Appendix II – Trade regulated
+6211,Mammalia,Peramelidae,Perameles bougainville,Western Barred Bandicoot,Appendix I – Species threatened with extinction
+7185,Mammalia,Thylacomyidae,Macrotis lagotis,Greater Bilby,Appendix I – Species threatened with extinction
+3255,Mammalia,Equidae,Equus africanus,African Wild Ass,Appendix I – Species threatened with extinction
+4156,Mammalia,Equidae,Equus grevyi,Grevy's Zebra,Appendix I – Species threatened with extinction
+11193,Mammalia,Equidae,Equus hemionus,Asiatic Wild Ass (Onager),Appendix II – Trade regulated
+12227,Mammalia,Equidae,Equus hemionus hemionus,Mongolian Wild Ass,Appendix I – Species threatened with extinction
+12335,Mammalia,Equidae,Equus hemionus khur,Indian Wild Ass (Khur),Appendix I – Species threatened with extinction
+101272,Mammalia,Equidae,Equus hemionus luteus,Gobi Wild Ass,Appendix I – Species threatened with extinction
+7035,Mammalia,Equidae,Equus kiang,Kiang,Appendix II – Trade regulated
+9902,Mammalia,Equidae,Equus przewalskii,Przewalski's Horse,Appendix I – Species threatened with extinction
+12300,Mammalia,Equidae,Equus zebra hartmannae,Hartmann's Mountain Zebra,Appendix II – Trade regulated
+12266,Mammalia,Equidae,Equus zebra zebra,Cape Mountain Zebra,Appendix II – Trade regulated
+10255,Mammalia,Rhinocerotidae,Ceratotherium simum,White Rhinoceros,Appendix I – Species threatened with extinction
+12296,Mammalia,Rhinocerotidae,Ceratotherium simum simum,Southern White Rhinoceros,Appendix I / II – Status depends on population
+5871,Mammalia,Rhinocerotidae,Dicerorhinus sumatrensis,Sumatran Rhinoceros,Appendix I – Species threatened with extinction
+6656,Mammalia,Rhinocerotidae,Diceros bicornis,Black Rhinoceros,Appendix I – Species threatened with extinction
+5553,Mammalia,Rhinocerotidae,Rhinoceros sondaicus,Javan Rhinoceros,Appendix I – Species threatened with extinction
+5103,Mammalia,Rhinocerotidae,Rhinoceros unicornis,Greater One-horned Rhinoceros (Indian Rhino),Appendix I – Species threatened with extinction
+7223,Mammalia,Tapiridae,Tapirus bairdii,Baird's Tapir,Appendix I – Species threatened with extinction
+4052,Mammalia,Tapiridae,Tapirus indicus,Malayan Tapir,Appendix I – Species threatened with extinction
+10095,Mammalia,Tapiridae,Tapirus pinchaque,Mountain Tapir,Appendix I – Species threatened with extinction
+3928,Mammalia,Tapiridae,Tapirus terrestris,South American Tapir (Brazilian Tapir),Appendix II – Trade regulated
+9849,Mammalia,Manidae,Manis crassicaudata,Indian Pangolin,Appendix I – Species threatened with extinction
+5098,Mammalia,Manidae,Manis culionensis,Philippine Pangolin,Appendix I – Species threatened with extinction
+11136,Mammalia,Manidae,Manis gigantea,Giant Pangolin,Appendix I – Species threatened with extinction
+5034,Mammalia,Manidae,Manis javanica,Sunda Pangolin,Appendix I – Species threatened with extinction
+5373,Mammalia,Manidae,Manis pentadactyla,Chinese Pangolin,Appendix I – Species threatened with extinction
+6617,Mammalia,Manidae,Manis temminckii,Temminck's Pangolin (Ground Pangolin),Appendix I – Species threatened with extinction
+6723,Mammalia,Manidae,Manis tetradactyla,Long-tailed Pangolin (Black-bellied),Appendix I – Species threatened with extinction
+4085,Mammalia,Manidae,Manis tricuspis,White-bellied Pangolin (Tree Pangolin),Appendix I – Species threatened with extinction
+54736,Mammalia,Bradypodidae,Bradypus pygmaeus,Pygmy Three-toed Sloth,Appendix II – Trade regulated
+5257,Mammalia,Bradypodidae,Bradypus variegatus,Brown-throated Three-toed Sloth,Appendix II – Trade regulated
+4631,Mammalia,Myrmecophagidae,Myrmecophaga tridactyla,Giant Anteater,Appendix II – Trade regulated
+4209,Mammalia,Myrmecophagidae,Tamandua mexicana,Northern Tamandua,Appendix III – National protection
+6177,Mammalia,Aotidae,Aotus azarae,Azara's Night Monkey,Appendix II – Trade regulated
+7846,Mammalia,Aotidae,Aotus jorgehernandezi,Hernandez-Camacho's Night Monkey,Appendix II – Trade regulated
+7725,Mammalia,Aotidae,Aotus lemurinus,Gray-bellied Night Monkey,Appendix II – Trade regulated
+3269,Mammalia,Aotidae,Aotus miconax,Andean Night Monkey,Appendix II – Trade regulated
+8974,Mammalia,Aotidae,Aotus nancymaae,Nancy Ma's Night Monkey,Appendix II – Trade regulated
+5421,Mammalia,Aotidae,Aotus nigriceps,Black-headed Night Monkey,Appendix II – Trade regulated
+6573,Mammalia,Aotidae,Aotus trivirgatus,Three-striped Night Monkey,Appendix II – Trade regulated
+6415,Mammalia,Aotidae,Aotus vociferans,Spix's Night Monkey,Appendix II – Trade regulated
+6096,Mammalia,Atelidae,Alouatta belzebul,Red-handed Howler,Appendix II – Trade regulated
+8425,Mammalia,Atelidae,Alouatta caraya,Black Howler,Appendix II – Trade regulated
+5404,Mammalia,Atelidae,Alouatta guariba,Brown Howler,Appendix II – Trade regulated
+11135,Mammalia,Atelidae,Alouatta macconnelli,Guianan Red Howler,Appendix II – Trade regulated
+8976,Mammalia,Atelidae,Alouatta nigerrima,Amazon Black Howler,Appendix II – Trade regulated
+5936,Mammalia,Atelidae,Alouatta palliata,Mantled Howler,Appendix I – Species threatened with extinction
+10519,Mammalia,Atelidae,Alouatta pigra,Guatemalan Black Howler,Appendix I – Species threatened with extinction
+10985,Mammalia,Atelidae,Alouatta sara,Bolivian Red Howler,Appendix II – Trade regulated
+6697,Mammalia,Atelidae,Alouatta seniculus,Venezuelan Red Howler,Appendix II – Trade regulated
+4938,Mammalia,Atelidae,Ateles belzebuth,White-bellied Spider Monkey,Appendix II – Trade regulated
+6635,Mammalia,Atelidae,Ateles chamek,Black-faced Black Spider Monkey,Appendix II – Trade regulated
+5608,Mammalia,Atelidae,Ateles fusciceps,Brown-headed Spider Monkey,Appendix II – Trade regulated
+7952,Mammalia,Atelidae,Ateles geoffroyi,Geoffroy's Spider Monkey,Appendix II – Trade regulated
+12214,Mammalia,Atelidae,Ateles geoffroyi frontatus,Black-browed Spider Monkey,Appendix I – Species threatened with extinction
+68346,Mammalia,Atelidae,Ateles geoffroyi ornatus,Ornate Spider Monkey,Appendix I – Species threatened with extinction
+9553,Mammalia,Atelidae,Ateles hybridus,Variegated Spider Monkey,Appendix II – Trade regulated
+9302,Mammalia,Atelidae,Ateles marginatus,White-whiskered Spider Monkey,Appendix II – Trade regulated
+10405,Mammalia,Atelidae,Ateles paniscus,Black Spider Monkey,Appendix II – Trade regulated
+10078,Mammalia,Atelidae,Brachyteles arachnoides,Southern Muriqui (Woolly Spider Monkey),Appendix I – Species threatened with extinction
+5882,Mammalia,Atelidae,Brachyteles hypoxanthus,Northern Muriqui,Appendix I – Species threatened with extinction
+8304,Mammalia,Atelidae,Lagothrix cana,Gray Woolly Monkey,Appendix II – Trade regulated
+4333,Mammalia,Atelidae,Lagothrix lagotricha,Brown Woolly Monkey,Appendix II – Trade regulated
+9750,Mammalia,Atelidae,Lagothrix lugens,Colombian Woolly Monkey,Appendix II – Trade regulated
+4069,Mammalia,Atelidae,Lagothrix poeppigii,Poeppig's Woolly Monkey,Appendix II – Trade regulated
+4996,Mammalia,Atelidae,Oreonax flavicauda,Yellow-tailed Woolly Monkey,Appendix I – Species threatened with extinction
+8992,Mammalia,Cebidae,Callimico goeldii,Goeldi's Monkey,Appendix I – Species threatened with extinction
+4502,Mammalia,Cebidae,Callithrix acariensis,Rio Acari Marmoset,Appendix II – Trade regulated
+7910,Mammalia,Cebidae,Callithrix argentata,Silvery Marmoset,Appendix II – Trade regulated
+4190,Mammalia,Cebidae,Callithrix aurita,Buffy-tufted Marmoset,Appendix I – Species threatened with extinction
+3607,Mammalia,Cebidae,Callithrix chrysoleuca,Gold-and-white Marmoset,Appendix II – Trade regulated
+4984,Mammalia,Cebidae,Callithrix emiliae,Emilia's Marmoset,Appendix II – Trade regulated
+7641,Mammalia,Cebidae,Callithrix flaviceps,Buffy-headed Marmoset,Appendix I – Species threatened with extinction
+9363,Mammalia,Cebidae,Callithrix geoffroyi,Geoffroy's Tufted-ear Marmoset,Appendix II – Trade regulated
+4507,Mammalia,Cebidae,Callithrix humeralifera,Tassel-eared Marmoset,Appendix II – Trade regulated
+10518,Mammalia,Cebidae,Callithrix humilis,Roosmalens' Dwarf Marmoset,Appendix II – Trade regulated
+4202,Mammalia,Cebidae,Callithrix intermedia,Aripuanã Marmoset,Appendix II – Trade regulated
+5346,Mammalia,Cebidae,Callithrix jacchus,Common Marmoset,Appendix II – Trade regulated
+7169,Mammalia,Cebidae,Callithrix kuhlii,Wied's Marmoset,Appendix II – Trade regulated
+4237,Mammalia,Cebidae,Callithrix leucippe,White Marmoset,Appendix II – Trade regulated
+4882,Mammalia,Cebidae,Callithrix manicorensis,Manicoré Marmoset,Appendix II – Trade regulated
+4346,Mammalia,Cebidae,Callithrix marcai,Marca's Marmoset,Appendix II – Trade regulated
+10570,Mammalia,Cebidae,Callithrix mauesi,Maués Marmoset,Appendix II – Trade regulated
+3244,Mammalia,Cebidae,Callithrix melanura,Black-tailed Marmoset,Appendix II – Trade regulated
+8000,Mammalia,Cebidae,Callithrix nigriceps,Black-headed Marmoset,Appendix II – Trade regulated
+5614,Mammalia,Cebidae,Callithrix penicillata,Black-tufted Marmoset,Appendix II – Trade regulated
+10074,Mammalia,Cebidae,Callithrix pygmaea,Pygmy Marmoset,Appendix II – Trade regulated
+10506,Mammalia,Cebidae,Callithrix saterei,Sateré Marmoset,Appendix II – Trade regulated
+9298,Mammalia,Cebidae,Cebus albifrons,White-fronted Capuchin,Appendix II – Trade regulated
+9931,Mammalia,Cebidae,Cebus apella,Tufted Capuchin,Appendix II – Trade regulated
+6424,Mammalia,Cebidae,Cebus capucinus,White-headed Capuchin,Appendix II – Trade regulated
+4025,Mammalia,Cebidae,Cebus flavius,Blond Capuchin,Appendix II – Trade regulated
+8649,Mammalia,Cebidae,Cebus kaapori,Kaapori Capuchin,Appendix II – Trade regulated
+3810,Mammalia,Cebidae,Cebus libidinosus,Bearded Capuchin,Appendix II – Trade regulated
+5575,Mammalia,Cebidae,Cebus nigritus,Black-horned Capuchin,Appendix II – Trade regulated
+9285,Mammalia,Cebidae,Cebus olivaceus,Weeper Capuchin,Appendix II – Trade regulated
+7097,Mammalia,Cebidae,Cebus xanthosternos,Golden-bellied Capuchin,Appendix II – Trade regulated
+7368,Mammalia,Cebidae,Leontopithecus caissara,Black-faced Lion Tamarin,Appendix I – Species threatened with extinction
+4788,Mammalia,Cebidae,Leontopithecus chrysomelas,Golden-headed Lion Tamarin,Appendix I – Species threatened with extinction
+3767,Mammalia,Cebidae,Leontopithecus chrysopygus,Black Lion Tamarin,Appendix I – Species threatened with extinction
+6743,Mammalia,Cebidae,Leontopithecus rosalia,Golden Lion Tamarin,Appendix I – Species threatened with extinction
+9518,Mammalia,Cebidae,Mico rondoni,Rondon's Marmoset,Appendix II – Trade regulated
+5931,Mammalia,Cebidae,Saguinus bicolor,Pied Tamarin,Appendix I – Species threatened with extinction
+7581,Mammalia,Cebidae,Saguinus fuscicollis,Saddle-back Tamarin,Appendix II – Trade regulated
+6142,Mammalia,Cebidae,Saguinus geoffroyi,Geoffroy's Tamarin,Appendix I – Species threatened with extinction
+6393,Mammalia,Cebidae,Saguinus graellsi,Graells's Tamarin,Appendix II – Trade regulated
+5284,Mammalia,Cebidae,Saguinus imperator,Emperor Tamarin,Appendix II – Trade regulated
+9705,Mammalia,Cebidae,Saguinus inustus,Mottled-faced Tamarin,Appendix II – Trade regulated
+4870,Mammalia,Cebidae,Saguinus labiatus,Red-chested Mustached Tamarin,Appendix II – Trade regulated
+8966,Mammalia,Cebidae,Saguinus leucopus,White-footed Tamarin,Appendix I – Species threatened with extinction
+4273,Mammalia,Cebidae,Saguinus martinsi,Martin's Bare-face Tamarin,Appendix I – Species threatened with extinction
+9746,Mammalia,Cebidae,Saguinus melanoleucus,White-mantled Tamarin,Appendix II – Trade regulated
+8942,Mammalia,Cebidae,Saguinus midas,Midas Tamarin,Appendix II – Trade regulated
+3481,Mammalia,Cebidae,Saguinus mystax,Black-chested Mustached Tamarin,Appendix II – Trade regulated
+3547,Mammalia,Cebidae,Saguinus niger,Black Tamarin,Appendix II – Trade regulated
+7807,Mammalia,Cebidae,Saguinus nigricollis,Black-mantled Tamarin,Appendix II – Trade regulated
+4999,Mammalia,Cebidae,Saguinus oedipus,Cotton-top Tamarin,Appendix I – Species threatened with extinction
+3162,Mammalia,Cebidae,Saguinus pileatus,Red-capped Tamarin,Appendix II – Trade regulated
+7448,Mammalia,Cebidae,Saguinus tripartitus,Golden-mantled Tamarin,Appendix II – Trade regulated
+68348,Mammalia,Cebidae,Saguinus ursulus,Black-handed Tamarin,Appendix II – Trade regulated
+4748,Mammalia,Cebidae,Saimiri boliviensis,Bolivian Squirrel Monkey,Appendix II – Trade regulated
+68351,Mammalia,Cebidae,Saimiri collinsi,Collins' Squirrel Monkey,Appendix II – Trade regulated
+6620,Mammalia,Cebidae,Saimiri oerstedii,Central American Squirrel Monkey,Appendix I – Species threatened with extinction
+6767,Mammalia,Cebidae,Saimiri sciureus,Common Squirrel Monkey,Appendix II – Trade regulated
+10482,Mammalia,Cebidae,Saimiri ustus,Bare-eared Squirrel Monkey,Appendix II – Trade regulated
+7946,Mammalia,Cebidae,Saimiri vanzolinii,Vanzolini's Squirrel Monkey,Appendix II – Trade regulated
+3765,Mammalia,Cercopithecidae,Allenopithecus nigroviridis,Allen's Swamp Monkey,Appendix II – Trade regulated
+94588,Mammalia,Cercopithecidae,Allochrocebus lhoesti,L'Hoest's Monkey,Appendix II – Trade regulated
+101348,Mammalia,Cercopithecidae,Allochrocebus preussi,Preuss's Monkey,Appendix II – Trade regulated
+101347,Mammalia,Cercopithecidae,Allochrocebus solatus,Sun-tailed Monkey,Appendix II – Trade regulated
+3308,Mammalia,Cercopithecidae,Cercocebus agilis,Agile Mangabey,Appendix II – Trade regulated
+4792,Mammalia,Cercopithecidae,Cercocebus atys,Sooty Mangabey,Appendix II – Trade regulated
+10155,Mammalia,Cercopithecidae,Cercocebus chrysogaster,Golden-bellied Mangabey,Appendix II – Trade regulated
+5226,Mammalia,Cercopithecidae,Cercocebus galeritus,Crested Mangabey,Appendix I – Species threatened with extinction
+5674,Mammalia,Cercopithecidae,Cercocebus sanjei,Sanje Mangabey,Appendix II – Trade regulated
+9860,Mammalia,Cercopithecidae,Cercocebus torquatus,Red-capped Mangabey (White-collared),Appendix II – Trade regulated
+10992,Mammalia,Cercopithecidae,Cercopithecus albogularis,Sykes' Monkey,Appendix II – Trade regulated
+3669,Mammalia,Cercopithecidae,Cercopithecus ascanius,Red-tailed Monkey,Appendix II – Trade regulated
+3887,Mammalia,Cercopithecidae,Cercopithecus campbelli,Campbell's Monkey,Appendix II – Trade regulated
+3710,Mammalia,Cercopithecidae,Cercopithecus cephus,Moustached Monkey,Appendix II – Trade regulated
+9970,Mammalia,Cercopithecidae,Cercopithecus denti,Dent's Monkey,Appendix II – Trade regulated
+10615,Mammalia,Cercopithecidae,Cercopithecus diana,Diana Monkey,Appendix I – Species threatened with extinction
+8341,Mammalia,Cercopithecidae,Cercopithecus doggetti,Silver Monkey,Appendix II – Trade regulated
+6264,Mammalia,Cercopithecidae,Cercopithecus dryas,Dryas Monkey,Appendix II – Trade regulated
+10498,Mammalia,Cercopithecidae,Cercopithecus erythrogaster,Red-bellied Monkey,Appendix II – Trade regulated
+4723,Mammalia,Cercopithecidae,Cercopithecus erythrotis,Red-eared Monkey,Appendix II – Trade regulated
+9017,Mammalia,Cercopithecidae,Cercopithecus hamlyni,Hamlyn's Monkey (Owl-faced),Appendix II – Trade regulated
+9726,Mammalia,Cercopithecidae,Cercopithecus kandti,Golden Monkey,Appendix II – Trade regulated
+67924,Mammalia,Cercopithecidae,Cercopithecus lomamiensis,Lomami River Blue Monkey,Appendix II – Trade regulated
+10036,Mammalia,Cercopithecidae,Cercopithecus lowei,Lowe's Monkey,Appendix II – Trade regulated
+9150,Mammalia,Cercopithecidae,Cercopithecus mitis,Blue Monkey,Appendix II – Trade regulated
+5362,Mammalia,Cercopithecidae,Cercopithecus mona,Mona Monkey,Appendix II – Trade regulated
+8121,Mammalia,Cercopithecidae,Cercopithecus neglectus,De Brazza's Monkey,Appendix II – Trade regulated
+4016,Mammalia,Cercopithecidae,Cercopithecus nictitans,Putty-nosed Monkey,Appendix II – Trade regulated
+5430,Mammalia,Cercopithecidae,Cercopithecus petaurista,Lesser Spot-nosed Monkey,Appendix II – Trade regulated
+9175,Mammalia,Cercopithecidae,Cercopithecus pogonias,Crowned Monkey,Appendix II – Trade regulated
+6568,Mammalia,Cercopithecidae,Cercopithecus roloway,Roloway Monkey,Appendix I – Species threatened with extinction
+8996,Mammalia,Cercopithecidae,Cercopithecus sclateri,Sclater's Monkey,Appendix II – Trade regulated
+10428,Mammalia,Cercopithecidae,Cercopithecus wolfi,Wolf's Monkey,Appendix II – Trade regulated
+7013,Mammalia,Cercopithecidae,Chlorocebus aethiops,Grivet Monkey,Appendix II – Trade regulated
+8535,Mammalia,Cercopithecidae,Chlorocebus cynosuros,Malbrouck Monkey,Appendix II – Trade regulated
+5150,Mammalia,Cercopithecidae,Chlorocebus djamdjamensis,Bale Mountains Vervet,Appendix II – Trade regulated
+10131,Mammalia,Cercopithecidae,Chlorocebus pygerythrus,Vervet Monkey,Appendix II – Trade regulated
+8199,Mammalia,Cercopithecidae,Chlorocebus sabaeus,Green Monkey,Appendix II – Trade regulated
+8446,Mammalia,Cercopithecidae,Chlorocebus tantalus,Tantalus Monkey,Appendix II – Trade regulated
+10874,Mammalia,Cercopithecidae,Colobus angolensis,Angola Colobus,Appendix II – Trade regulated
+3758,Mammalia,Cercopithecidae,Colobus guereza,Guereza (Mantled Colobus),Appendix II – Trade regulated
+4790,Mammalia,Cercopithecidae,Colobus polykomos,King Colobus,Appendix II – Trade regulated
+4991,Mammalia,Cercopithecidae,Colobus satanas,Black Colobus,Appendix II – Trade regulated
+4679,Mammalia,Cercopithecidae,Colobus vellerosus,Ursine Colobus,Appendix II – Trade regulated
+5524,Mammalia,Cercopithecidae,Erythrocebus patas,Patas Monkey,Appendix II – Trade regulated
+3189,Mammalia,Cercopithecidae,Lophocebus albigena,Grey-cheeked Mangabey,Appendix II – Trade regulated
+9433,Mammalia,Cercopithecidae,Lophocebus aterrimus,Black Crested Mangabey,Appendix II – Trade regulated
+4936,Mammalia,Cercopithecidae,Lophocebus opdenboschi,Opdenbosch's Mangabey,Appendix II – Trade regulated
+5121,Mammalia,Cercopithecidae,Macaca arctoides,Stump-tailed Macaque,Appendix II – Trade regulated
+3521,Mammalia,Cercopithecidae,Macaca assamensis,Assam Macaque,Appendix II – Trade regulated
+4749,Mammalia,Cercopithecidae,Macaca cyclopis,Taiwanese Macaque,Appendix II – Trade regulated
+3920,Mammalia,Cercopithecidae,Macaca fascicularis,Crab-eating Macaque (Long-tailed),Appendix II – Trade regulated
+9791,Mammalia,Cercopithecidae,Macaca fuscata,Japanese Macaque (Snow Monkey),Appendix II – Trade regulated
+4479,Mammalia,Cercopithecidae,Macaca hecki,Heck's Macaque,Appendix II – Trade regulated
+3069,Mammalia,Cercopithecidae,Macaca leonina,Northern Pig-tailed Macaque,Appendix II – Trade regulated
+101073,Mammalia,Cercopithecidae,Macaca leucogenys,White-cheeked Macaque,Appendix II – Trade regulated
+3562,Mammalia,Cercopithecidae,Macaca maura,Moor Macaque,Appendix II – Trade regulated
+7393,Mammalia,Cercopithecidae,Macaca mulatta,Rhesus Macaque,Appendix II – Trade regulated
+9649,Mammalia,Cercopithecidae,Macaca munzala,Arunachal Macaque,Appendix II – Trade regulated
+7094,Mammalia,Cercopithecidae,Macaca nemestrina,Pig-tailed Macaque (Southern),Appendix II – Trade regulated
+6601,Mammalia,Cercopithecidae,Macaca nigra,Celebes Crested Macaque,Appendix II – Trade regulated
+8188,Mammalia,Cercopithecidae,Macaca nigrescens,Gorontalo Macaque,Appendix II – Trade regulated
+4490,Mammalia,Cercopithecidae,Macaca ochreata,Booted Macaque,Appendix II – Trade regulated
+9720,Mammalia,Cercopithecidae,Macaca pagensis,Pagai Island Macaque,Appendix II – Trade regulated
+7080,Mammalia,Cercopithecidae,Macaca radiata,Bonnet Macaque,Appendix II – Trade regulated
+6217,Mammalia,Cercopithecidae,Macaca siberu,Siberut Macaque,Appendix II – Trade regulated
+11089,Mammalia,Cercopithecidae,Macaca silenus,Lion-tailed Macaque,Appendix I – Species threatened with extinction
+10938,Mammalia,Cercopithecidae,Macaca sinica,Toque Macaque,Appendix II – Trade regulated
+6923,Mammalia,Cercopithecidae,Macaca sylvanus,Barbary Macaque,Appendix I – Species threatened with extinction
+10541,Mammalia,Cercopithecidae,Macaca thibetana,Tibetan Macaque,Appendix II – Trade regulated
+3468,Mammalia,Cercopithecidae,Macaca tonkeana,Tonkean Macaque,Appendix II – Trade regulated
+6623,Mammalia,Cercopithecidae,Mandrillus leucophaeus,Drill,Appendix I – Species threatened with extinction
+7079,Mammalia,Cercopithecidae,Mandrillus sphinx,Mandrill,Appendix I – Species threatened with extinction
+6929,Mammalia,Cercopithecidae,Miopithecus ogouensis,Northern Talapoin,Appendix II – Trade regulated
+10014,Mammalia,Cercopithecidae,Miopithecus talapoin,Angolan Talapoin,Appendix II – Trade regulated
+10415,Mammalia,Cercopithecidae,Nasalis larvatus,Proboscis Monkey,Appendix I – Species threatened with extinction
+10170,Mammalia,Cercopithecidae,Papio anubis,Olive Baboon,Appendix II – Trade regulated
+9185,Mammalia,Cercopithecidae,Papio cynocephalus,Yellow Baboon,Appendix II – Trade regulated
+5129,Mammalia,Cercopithecidae,Papio hamadryas,Hamadryas Baboon,Appendix II – Trade regulated
+5836,Mammalia,Cercopithecidae,Papio papio,Guinea Baboon,Appendix II – Trade regulated
+5352,Mammalia,Cercopithecidae,Papio ursinus,Chacma Baboon,Appendix II – Trade regulated
+4238,Mammalia,Cercopithecidae,Piliocolobus badius,Western Red Colobus,Appendix II – Trade regulated
+101287,Mammalia,Cercopithecidae,Piliocolobus bouvieri,Bou,Appendix II – Trade regulated
+101288,Mammalia,Cercopithecidae,Piliocolobus epieni,Niger Delta Red Colobus,Appendix II – Trade regulated
+9502,Mammalia,Cercopithecidae,Piliocolobus foai,Central African Red Colobus,Appendix II – Trade regulated
+5706,Mammalia,Cercopithecidae,Piliocolobus gordonorum,Udzungwa Red Colobus,Appendix II – Trade regulated
+4754,Mammalia,Cercopithecidae,Piliocolobus kirkii,Zanzibar Red Colobus,Appendix I – Species threatened with extinction
+4545,Mammalia,Cercopithecidae,Piliocolobus pennantii,Pennant's Red Colobus,Appendix II – Trade regulated
+7649,Mammalia,Cercopithecidae,Piliocolobus preussi,Preuss's Red Colobus,Appendix II – Trade regulated
+6368,Mammalia,Cercopithecidae,Piliocolobus rufomitratus,Tana River Red Colobus,Appendix I – Species threatened with extinction
+101285,Mammalia,Cercopithecidae,Piliocolobus temminckii,Temminck's Red Colobus,Appendix II – Trade regulated
+10708,Mammalia,Cercopithecidae,Piliocolobus tephrosceles,Ashy Red Colobus,Appendix II – Trade regulated
+9508,Mammalia,Cercopithecidae,Piliocolobus tholloni,Thollon's Red Colobus,Appendix II – Trade regulated
+101286,Mammalia,Cercopithecidae,Piliocolobus waldronae,Waldron's Red Colobus,Appendix II – Trade regulated
+9688,Mammalia,Cercopithecidae,Presbytis chrysomelas,Cross-marked Langur,Appendix II – Trade regulated
+5268,Mammalia,Cercopithecidae,Presbytis comata,Javan Surili,Appendix II – Trade regulated
+6534,Mammalia,Cercopithecidae,Presbytis femoralis,Banded Langur,Appendix II – Trade regulated
+8055,Mammalia,Cercopithecidae,Presbytis frontata,White-fronted Langur,Appendix II – Trade regulated
+10476,Mammalia,Cercopithecidae,Presbytis hosei,Hose's Langur,Appendix II – Trade regulated
+10011,Mammalia,Cercopithecidae,Presbytis melalophos,Southern Sumatran Langur,Appendix II – Trade regulated
+4133,Mammalia,Cercopithecidae,Presbytis natunae,Natuna Islands Langur,Appendix II – Trade regulated
+8236,Mammalia,Cercopithecidae,Presbytis potenziani,Mentawai Langur,Appendix I – Species threatened with extinction
+8988,Mammalia,Cercopithecidae,Presbytis rubicunda,Maroon Langur,Appendix II – Trade regulated
+8161,Mammalia,Cercopithecidae,Presbytis siamensis,White-thighed Langur,Appendix II – Trade regulated
+10809,Mammalia,Cercopithecidae,Presbytis thomasi,Thomas's Langur,Appendix II – Trade regulated
+9671,Mammalia,Cercopithecidae,Procolobus verus,Olive Colobus,Appendix II – Trade regulated
+3404,Mammalia,Cercopithecidae,Pygathrix cinerea,Gray-shanked Douc,Appendix I – Species threatened with extinction
+8352,Mammalia,Cercopithecidae,Pygathrix nemaeus,Red-shanked Douc,Appendix I – Species threatened with extinction
+5093,Mammalia,Cercopithecidae,Pygathrix nigripes,Black-shanked Douc,Appendix I – Species threatened with extinction
+9301,Mammalia,Cercopithecidae,Rhinopithecus avunculus,Tonkin Snub-nosed Monkey,Appendix I – Species threatened with extinction
+6214,Mammalia,Cercopithecidae,Rhinopithecus bieti,Black Snub-nosed Monkey,Appendix I – Species threatened with extinction
+8127,Mammalia,Cercopithecidae,Rhinopithecus brelichi,Gray Snub-nosed Monkey,Appendix I – Species threatened with extinction
+3851,Mammalia,Cercopithecidae,Rhinopithecus roxellana,Golden Snub-nosed Monkey,Appendix I – Species threatened with extinction
+5919,Mammalia,Cercopithecidae,Rhinopithecus strykeri,Myanmar Snub-nosed Monkey,Appendix I – Species threatened with extinction
+10307,Mammalia,Cercopithecidae,Rungwecebus kipunji,Kipunji,Appendix II – Trade regulated
+4844,Mammalia,Cercopithecidae,Semnopithecus ajax,Kashmir Gray Langur,Appendix I – Species threatened with extinction
+10264,Mammalia,Cercopithecidae,Semnopithecus dussumieri,Southern Plains Gray Langur,Appendix I – Species threatened with extinction
+11082,Mammalia,Cercopithecidae,Semnopithecus entellus,Northern Plains Gray Langur,Appendix I – Species threatened with extinction
+7895,Mammalia,Cercopithecidae,Semnopithecus hector,Tarai Gray Langur,Appendix I – Species threatened with extinction
+4349,Mammalia,Cercopithecidae,Semnopithecus hypoleucos,Black-footed Gray Langur,Appendix I – Species threatened with extinction
+9670,Mammalia,Cercopithecidae,Semnopithecus priam,Tufted Gray Langur,Appendix I – Species threatened with extinction
+3541,Mammalia,Cercopithecidae,Semnopithecus schistaceus,Nepal Gray Langur,Appendix I – Species threatened with extinction
+7516,Mammalia,Cercopithecidae,Simias concolor,Pig-tailed Langur,Appendix I – Species threatened with extinction
+3493,Mammalia,Cercopithecidae,Theropithecus gelada,Gelada,Appendix II – Trade regulated
+9679,Mammalia,Cercopithecidae,Trachypithecus auratus,Javan Lutung,Appendix II – Trade regulated
+10222,Mammalia,Cercopithecidae,Trachypithecus barbei,Barbei's Langur,Appendix II – Trade regulated
+10425,Mammalia,Cercopithecidae,Trachypithecus delacouri,Delacour's Langur,Appendix II – Trade regulated
+9418,Mammalia,Cercopithecidae,Trachypithecus ebenus,Black Langur,Appendix II – Trade regulated
+8958,Mammalia,Cercopithecidae,Trachypithecus francoisi,Francois's Langur,Appendix II – Trade regulated
+9479,Mammalia,Cercopithecidae,Trachypithecus geei,Gee's Golden Langur,Appendix I – Species threatened with extinction
+11238,Mammalia,Cercopithecidae,Trachypithecus germaini,Germain's Langur,Appendix II – Trade regulated
+10790,Mammalia,Cercopithecidae,Trachypithecus hatinhensis,Hatinh Langur,Appendix II – Trade regulated
+8100,Mammalia,Cercopithecidae,Trachypithecus johnii,Nilgiri Langur,Appendix II – Trade regulated
+5066,Mammalia,Cercopithecidae,Trachypithecus laotum,Laotian Langur,Appendix II – Trade regulated
+10564,Mammalia,Cercopithecidae,Trachypithecus obscurus,Dusky Langur,Appendix II – Trade regulated
+5892,Mammalia,Cercopithecidae,Trachypithecus phayrei,Phayre's Langur,Appendix II – Trade regulated
+6140,Mammalia,Cercopithecidae,Trachypithecus pileatus,Capped Langur,Appendix I – Species threatened with extinction
+6258,Mammalia,Cercopithecidae,Trachypithecus poliocephalus,Cat Ba Langur,Appendix II – Trade regulated
+10221,Mammalia,Cercopithecidae,Trachypithecus shortridgei,Shortridge's Langur,Appendix I – Species threatened with extinction
+8983,Mammalia,Cercopithecidae,Trachypithecus vetulus,Purple-faced Langur,Appendix II – Trade regulated
+6437,Mammalia,Cercopithecidae,Trachypithecus villosus,Silvery Langur,Appendix II – Trade regulated
+3511,Mammalia,Cheirogaleidae,Allocebus trichotis,Hairy-eared Dwarf Lemur,Appendix I – Species threatened with extinction
+10628,Mammalia,Cheirogaleidae,Cheirogaleus adipicaudatus,Southwestern Fat-tailed Dwarf Lemur,Appendix I – Species threatened with extinction
+101074,Mammalia,Cheirogaleidae,Cheirogaleus andysabini,Sabini's Dwarf Lemur,Appendix I – Species threatened with extinction
+4881,Mammalia,Cheirogaleidae,Cheirogaleus crossleyi,Crossley's Dwarf Lemur,Appendix I – Species threatened with extinction
+67925,Mammalia,Cheirogaleidae,Cheirogaleus lavasoensis,Lavasa Dwarf Lemur,Appendix I – Species threatened with extinction
+8205,Mammalia,Cheirogaleidae,Cheirogaleus major,Greater Dwarf Lemur,Appendix I – Species threatened with extinction
+4609,Mammalia,Cheirogaleidae,Cheirogaleus medius,Fat-tailed Dwarf Lemur,Appendix I – Species threatened with extinction
+8720,Mammalia,Cheirogaleidae,Cheirogaleus minusculus,Lesser Iron-gray Dwarf Lemur,Appendix I – Species threatened with extinction
+8628,Mammalia,Cheirogaleidae,Cheirogaleus ravus,Greater Iron-gray Dwarf Lemur,Appendix I – Species threatened with extinction
+101075,Mammalia,Cheirogaleidae,Cheirogaleus shethi,Sheth's Dwarf Lemur,Appendix I – Species threatened with extinction
+8437,Mammalia,Cheirogaleidae,Cheirogaleus sibreei,Sibree's Dwarf Lemur,Appendix I – Species threatened with extinction
+9426,Mammalia,Cheirogaleidae,Microcebus berthae,Madame Berthe's Mouse Lemur,Appendix I – Species threatened with extinction
+101076,Mammalia,Cheirogaleidae,Microcebus ganzhorni,Ganzhorn's Mouse Lemur,Appendix I – Species threatened with extinction
+67926,Mammalia,Cheirogaleidae,Microcebus gerpi,Gerp's Mouse Lemur,Appendix I – Species threatened with extinction
+6216,Mammalia,Cheirogaleidae,Microcebus griseorufus,Reddish-gray Mouse Lemur,Appendix I – Species threatened with extinction
+101077,Mammalia,Cheirogaleidae,Microcebus manitatra,Manitatra's Mouse Lemur,Appendix I – Species threatened with extinction
+67927,Mammalia,Cheirogaleidae,Microcebus marohita,Marohita Mouse Lemur,Appendix I – Species threatened with extinction
+10099,Mammalia,Cheirogaleidae,Microcebus murinus,Gray Mouse Lemur,Appendix I – Species threatened with extinction
+4355,Mammalia,Cheirogaleidae,Microcebus myoxinus,Pygmy Mouse Lemur,Appendix I – Species threatened with extinction
+7273,Mammalia,Cheirogaleidae,Microcebus ravelobensis,Golden-brown Mouse Lemur,Appendix I – Species threatened with extinction
+8573,Mammalia,Cheirogaleidae,Microcebus rufus,Brown Mouse Lemur,Appendix I – Species threatened with extinction
+8624,Mammalia,Cheirogaleidae,Microcebus sambiranensis,Sambirano Mouse Lemur,Appendix I – Species threatened with extinction
+67928,Mammalia,Cheirogaleidae,Microcebus tanosi,Tanosy Mouse Lemur,Appendix I – Species threatened with extinction
+5248,Mammalia,Cheirogaleidae,Microcebus tavaratra,Northern Rufous Mouse Lemur,Appendix I – Species threatened with extinction
+9326,Mammalia,Cheirogaleidae,Mirza coquereli,Coquerel's Giant Mouse Lemur,Appendix I – Species threatened with extinction
+6133,Mammalia,Cheirogaleidae,Phaner electromontis,Amber Mountain Fork-marked Lemur,Appendix I – Species threatened with extinction
+6771,Mammalia,Cheirogaleidae,Phaner furcifer,Masokafa Fork-marked Lemur,Appendix I – Species threatened with extinction
+5739,Mammalia,Cheirogaleidae,Phaner pallescens,Pale Fork-marked Lemur,Appendix I – Species threatened with extinction
+9478,Mammalia,Cheirogaleidae,Phaner parienti,Pariente's Fork-marked Lemur,Appendix I – Species threatened with extinction
+10504,Mammalia,Daubentoniidae,Daubentonia madagascariensis,Aye-aye,Appendix I – Species threatened with extinction
+6863,Mammalia,Galagidae,Euoticus elegantulus,Western Needle-clawed Galago,Appendix II – Trade regulated
+5538,Mammalia,Galagidae,Euoticus pallidus,Central African Needle-clawed Galago,Appendix II – Trade regulated
+6886,Mammalia,Galagidae,Galago alleni,Allen's Bushbaby,Appendix II – Trade regulated
+5192,Mammalia,Galagidae,Galago cameronensis,Cameroon Bushbaby,Appendix II – Trade regulated
+4193,Mammalia,Galagidae,Galago demidoff,Demidoff's Dwarf Galago,Appendix II – Trade regulated
+5397,Mammalia,Galagidae,Galago gabonensis,Gabon Bushbaby,Appendix II – Trade regulated
+7603,Mammalia,Galagidae,Galago gallarum,Somali Bushbaby,Appendix II – Trade regulated
+6300,Mammalia,Galagidae,Galago matschiei,Matschie's Bushbaby,Appendix II – Trade regulated
+6175,Mammalia,Galagidae,Galago moholi,South African Galago,Appendix II – Trade regulated
+6538,Mammalia,Galagidae,Galago nyasae,Nyasa Bushbaby,Appendix II – Trade regulated
+5000,Mammalia,Galagidae,Galago senegalensis,Senegal Bushbaby,Appendix II – Trade regulated
+5635,Mammalia,Galagidae,Galago thomasi,Thomas's Bushbaby,Appendix II – Trade regulated
+101356,Mammalia,Galagidae,Galagoides kumbirensis,Kumbira Bushbaby,Appendix II – Trade regulated
+9472,Mammalia,Galagidae,Otolemur crassicaudatus,Greater Galago,Appendix II – Trade regulated
+9701,Mammalia,Galagidae,Otolemur garnettii,Northern Greater Galago,Appendix II – Trade regulated
+9756,Mammalia,Galagidae,Otolemur monteiri,Mount Kenya Bushbaby,Appendix II – Trade regulated
+101351,Mammalia,Galagidae,Paragalago cocos,Cocos Island Galago,Appendix II – Trade regulated
+101353,Mammalia,Galagidae,Paragalago granti,Grant's Bushbaby,Appendix II – Trade regulated
+101354,Mammalia,Galagidae,Paragalago orinus,Mountain Dwarf Galago,Appendix II – Trade regulated
+101355,Mammalia,Galagidae,Paragalago rondoensis,Rondo Dwarf Galago,Appendix II – Trade regulated
+101352,Mammalia,Galagidae,Paragalago zanzibaricus,Zanzibar Bushbaby,Appendix II – Trade regulated
+3913,Mammalia,Hominidae,Gorilla beringei,Eastern Gorilla,Appendix I – Species threatened with extinction
+7116,Mammalia,Hominidae,Gorilla gorilla,Western Gorilla,Appendix I – Species threatened with extinction
+8333,Mammalia,Hominidae,Pan paniscus,Bonobo,Appendix I – Species threatened with extinction
+6692,Mammalia,Hominidae,Pan troglodytes,Common Chimpanzee,Appendix I – Species threatened with extinction
+8203,Mammalia,Hominidae,Pongo abelii,Sumatran Orangutan,Appendix I – Species threatened with extinction
+7106,Mammalia,Hominidae,Pongo pygmaeus,Bornean Orangutan,Appendix I – Species threatened with extinction
+101289,Mammalia,Hominidae,Pongo tapanuliensis,Tapanuli Orangutan,Appendix I – Species threatened with extinction
+10956,Mammalia,Hylobatidae,Bunopithecus hoolock,Hoolock Gibbon,Appendix I – Species threatened with extinction
+101291,Mammalia,Hylobatidae,Hylobates abbotti,Abbott's Gray Gibbon,Appendix I – Species threatened with extinction
+10915,Mammalia,Hylobatidae,Hylobates agilis,Agile Gibbon,Appendix I – Species threatened with extinction
+6868,Mammalia,Hylobatidae,Hylobates albibarbis,Bornean White-bearded Gibbon,Appendix I – Species threatened with extinction
+101290,Mammalia,Hylobatidae,Hylobates funereus,Bornean Black Gibbon,Appendix I – Species threatened with extinction
+8754,Mammalia,Hylobatidae,Hylobates klossii,Kloss's Gibbon,Appendix I – Species threatened with extinction
+5852,Mammalia,Hylobatidae,Hylobates lar,Lar Gibbon,Appendix I – Species threatened with extinction
+7758,Mammalia,Hylobatidae,Hylobates moloch,Javan Silvery Gibbon,Appendix I – Species threatened with extinction
+8803,Mammalia,Hylobatidae,Hylobates muelleri,Müller's Bornean Gibbon,Appendix I – Species threatened with extinction
+4247,Mammalia,Hylobatidae,Hylobates pileatus,Pileated Gibbon,Appendix I – Species threatened with extinction
+4392,Mammalia,Hylobatidae,Nomascus annamensis,Northern Yellow-cheeked Gibbon,Appendix I – Species threatened with extinction
+4533,Mammalia,Hylobatidae,Nomascus concolor,Western Black Crested Gibbon,Appendix I – Species threatened with extinction
+6694,Mammalia,Hylobatidae,Nomascus gabriellae,Yellow-cheeked Gibbon,Appendix I – Species threatened with extinction
+7278,Mammalia,Hylobatidae,Nomascus hainanus,Hainan Black Crested Gibbon,Appendix I – Species threatened with extinction
+9609,Mammalia,Hylobatidae,Nomascus leucogenys,Northern White-cheeked Gibbon,Appendix I – Species threatened with extinction
+5454,Mammalia,Hylobatidae,Nomascus siki,Southern White-cheeked Gibbon,Appendix I – Species threatened with extinction
+5340,Mammalia,Hylobatidae,Symphalangus syndactylus,Siamang,Appendix I – Species threatened with extinction
+8576,Mammalia,Indriidae,Avahi laniger,Eastern Woolly Lemur,Appendix I – Species threatened with extinction
+11269,Mammalia,Indriidae,Avahi occidentalis,Western Woolly Lemur,Appendix I – Species threatened with extinction
+3548,Mammalia,Indriidae,Avahi unicolor,Sambirano Woolly Lemur,Appendix I – Species threatened with extinction
+10005,Mammalia,Indriidae,Indri indri,Indri,Appendix I – Species threatened with extinction
+101292,Mammalia,Indriidae,Propithecus candidus,Silky Sifaka,Appendix I – Species threatened with extinction
+8700,Mammalia,Indriidae,Propithecus coquereli,Coquerel's Sifaka,Appendix I – Species threatened with extinction
+62721,Mammalia,Indriidae,Propithecus coronatus,Crowned Sifaka,Appendix I – Species threatened with extinction
+3637,Mammalia,Indriidae,Propithecus deckenii,Van der Decken's Sifaka,Appendix I – Species threatened with extinction
+6701,Mammalia,Indriidae,Propithecus diadema,Diademed Sifaka,Appendix I – Species threatened with extinction
+5515,Mammalia,Indriidae,Propithecus edwardsi,Edwards's Sifaka,Appendix I – Species threatened with extinction
+8931,Mammalia,Indriidae,Propithecus perrieri,Perrier's Sifaka,Appendix I – Species threatened with extinction
+6482,Mammalia,Indriidae,Propithecus tattersalli,Golden-crowned Sifaka,Appendix I – Species threatened with extinction
+8584,Mammalia,Indriidae,Propithecus verreauxi,Verreaux's Sifaka,Appendix I – Species threatened with extinction
+8815,Mammalia,Lemuridae,Eulemur albifrons,White-fronted Brown Lemur,Appendix I – Species threatened with extinction
+7638,Mammalia,Lemuridae,Eulemur albocollaris,White-collared Brown Lemur,Appendix I – Species threatened with extinction
+10496,Mammalia,Lemuridae,Eulemur cinereiceps,Gray-headed Lemur,Appendix I – Species threatened with extinction
+5089,Mammalia,Lemuridae,Eulemur collaris,Collared Brown Lemur,Appendix I – Species threatened with extinction
+6844,Mammalia,Lemuridae,Eulemur coronatus,Crowned Lemur,Appendix I – Species threatened with extinction
+94537,Mammalia,Lemuridae,Eulemur flavifrons,Blue-eyed Black Lemur,Appendix I – Species threatened with extinction
+5490,Mammalia,Lemuridae,Eulemur fulvus,Common Brown Lemur,Appendix I – Species threatened with extinction
+11141,Mammalia,Lemuridae,Eulemur macaco,Black Lemur,Appendix I – Species threatened with extinction
+7200,Mammalia,Lemuridae,Eulemur mongoz,Mongoose Lemur,Appendix I – Species threatened with extinction
+9909,Mammalia,Lemuridae,Eulemur rubriventer,Red-bellied Lemur,Appendix I – Species threatened with extinction
+5225,Mammalia,Lemuridae,Eulemur rufus,Red-fronted Brown Lemur,Appendix I – Species threatened with extinction
+4430,Mammalia,Lemuridae,Eulemur sanfordi,Sanford's Brown Lemur,Appendix I – Species threatened with extinction
+5077,Mammalia,Lemuridae,Hapalemur alaotrensis,Alaotran Gentle Lemur,Appendix I – Species threatened with extinction
+8822,Mammalia,Lemuridae,Hapalemur aureus,Golden Bamboo Lemur,Appendix I – Species threatened with extinction
+3283,Mammalia,Lemuridae,Hapalemur griseus,Eastern Lesser Bamboo Lemur,Appendix I – Species threatened with extinction
+9571,Mammalia,Lemuridae,Hapalemur occidentalis,Western Lesser Bamboo Lemur,Appendix I – Species threatened with extinction
+5749,Mammalia,Lemuridae,Lemur catta,Ring-tailed Lemur,Appendix I – Species threatened with extinction
+3598,Mammalia,Lemuridae,Prolemur simus,Greater Bamboo Lemur,Appendix I – Species threatened with extinction
+7921,Mammalia,Lemuridae,Varecia rubra,Red Ruffed Lemur,Appendix I – Species threatened with extinction
+5668,Mammalia,Lemuridae,Varecia variegata,Black-and-white Ruffed Lemur,Appendix I – Species threatened with extinction
+4455,Mammalia,Lepilemuridae,Lepilemur ankaranensis,Ankarana Sportive Lemur,Appendix I – Species threatened with extinction
+6009,Mammalia,Lepilemuridae,Lepilemur dorsalis,Back-striped Sportive Lemur,Appendix I – Species threatened with extinction
+5399,Mammalia,Lepilemuridae,Lepilemur edwardsi,Edwards's Sportive Lemur,Appendix I – Species threatened with extinction
+7671,Mammalia,Lepilemuridae,Lepilemur leucopus,White-footed Sportive Lemur,Appendix I – Species threatened with extinction
+9538,Mammalia,Lepilemuridae,Lepilemur microdon,Small-toothed Sportive Lemur,Appendix I – Species threatened with extinction
+7439,Mammalia,Lepilemuridae,Lepilemur mustelinus,Weasel Sportive Lemur,Appendix I – Species threatened with extinction
+8488,Mammalia,Lepilemuridae,Lepilemur ruficaudatus,Red-tailed Sportive Lemur,Appendix I – Species threatened with extinction
+7259,Mammalia,Lepilemuridae,Lepilemur septentrionalis,Northern Sportive Lemur,Appendix I – Species threatened with extinction
+9357,Mammalia,Lorisidae,Arctocebus aureus,Golden Angwantibo,Appendix II – Trade regulated
+10229,Mammalia,Lorisidae,Arctocebus calabarensis,Calabar Angwantibo,Appendix II – Trade regulated
+4439,Mammalia,Lorisidae,Loris lydekkerianus,Gray Slender Loris,Appendix II – Trade regulated
+10000,Mammalia,Lorisidae,Loris tardigradus,Red Slender Loris,Appendix II – Trade regulated
+4118,Mammalia,Lorisidae,Nycticebus bengalensis,Bengal Slow Loris,Appendix I – Species threatened with extinction
+4303,Mammalia,Lorisidae,Nycticebus coucang,Sunda Slow Loris,Appendix I – Species threatened with extinction
+33077,Mammalia,Lorisidae,Nycticebus javanicus,Javan Slow Loris,Appendix I – Species threatened with extinction
+67929,Mammalia,Lorisidae,Nycticebus kayan,Kayan Slow Loris,Appendix I – Species threatened with extinction
+8796,Mammalia,Lorisidae,Nycticebus pygmaeus,Pygmy Slow Loris,Appendix I – Species threatened with extinction
+7356,Mammalia,Lorisidae,Perodicticus potto,Potto,Appendix II – Trade regulated
+9369,Mammalia,Lorisidae,Pseudopotto martini,False Potto,Appendix II – Trade regulated
+3510,Mammalia,Pitheciidae,Cacajao calvus,Bald Uakari,Appendix I – Species threatened with extinction
+4060,Mammalia,Pitheciidae,Cacajao melanocephalus,Black-headed Uakari,Appendix I – Species threatened with extinction
+68352,Mammalia,Pitheciidae,Cacajao oukary,Ouakary (Black Uakari),Appendix I – Species threatened with extinction
+4774,Mammalia,Pitheciidae,Callicebus barbarabrownae,Barbara Brown's Titi,Appendix II – Trade regulated
+5823,Mammalia,Pitheciidae,Callicebus coimbrai,Coimbra Filho's Titi,Appendix II – Trade regulated
+5877,Mammalia,Pitheciidae,Callicebus melanochir,Black-handed Titi,Appendix II – Trade regulated
+9840,Mammalia,Pitheciidae,Callicebus nigrifrons,Black-fronted Titi,Appendix II – Trade regulated
+7665,Mammalia,Pitheciidae,Callicebus personatus,Atlantic Titi,Appendix II – Trade regulated
+8012,Mammalia,Pitheciidae,Callicebus stephennashi,Stephen Nash's Titi,Appendix II – Trade regulated
+101381,Mammalia,Pitheciidae,Cheracebus lucifer,Red-crowned Titi,Appendix II – Trade regulated
+101383,Mammalia,Pitheciidae,Cheracebus lugens,Colombian Black-handed Titi,Appendix II – Trade regulated
+101384,Mammalia,Pitheciidae,Cheracebus medemi,Medem's Titi,Appendix II – Trade regulated
+101382,Mammalia,Pitheciidae,Cheracebus purinus,Purús Titi,Appendix II – Trade regulated
+101386,Mammalia,Pitheciidae,Cheracebus regulus,Regulus Titi,Appendix II – Trade regulated
+101385,Mammalia,Pitheciidae,Cheracebus torquatus,Widow Titi,Appendix II – Trade regulated
+5859,Mammalia,Pitheciidae,Chiropotes albinasus,White-nosed Saki,Appendix I – Species threatened with extinction
+7412,Mammalia,Pitheciidae,Chiropotes chiropotes,Red-backed Bearded Saki,Appendix II – Trade regulated
+8189,Mammalia,Pitheciidae,Chiropotes israelita,Rio Negro Bearded Saki,Appendix II – Trade regulated
+3956,Mammalia,Pitheciidae,Chiropotes satanas,Black Bearded Saki,Appendix II – Trade regulated
+3024,Mammalia,Pitheciidae,Chiropotes utahickae,Uta Hick's Bearded Saki,Appendix II – Trade regulated
+3139,Mammalia,Pitheciidae,Pithecia aequatorialis,Equatorial Saki,Appendix II – Trade regulated
+9977,Mammalia,Pitheciidae,Pithecia albicans,White Saki,Appendix II – Trade regulated
+67932,Mammalia,Pitheciidae,Pithecia cazuzai,Cazuza's Saki,Appendix II – Trade regulated
+68359,Mammalia,Pitheciidae,Pithecia chrysocephala,Golden-faced Saki,Appendix II – Trade regulated
+68356,Mammalia,Pitheciidae,Pithecia hirsuta,Hairy Saki,Appendix II – Trade regulated
+68354,Mammalia,Pitheciidae,Pithecia inusta,Burnished Saki,Appendix II – Trade regulated
+4817,Mammalia,Pitheciidae,Pithecia irrorata,Neblina Saki,Appendix II – Trade regulated
+67933,Mammalia,Pitheciidae,Pithecia isabela,Isabela's Saki,Appendix II – Trade regulated
+68355,Mammalia,Pitheciidae,Pithecia milleri,Miller's Saki,Appendix II – Trade regulated
+67934,Mammalia,Pitheciidae,Pithecia mittermeieri,Mittermeier's Saki,Appendix II – Trade regulated
+11237,Mammalia,Pitheciidae,Pithecia monachus,Monk Saki,Appendix II – Trade regulated
+68358,Mammalia,Pitheciidae,Pithecia napensis,Napo Saki,Appendix II – Trade regulated
+67935,Mammalia,Pitheciidae,Pithecia pissinattii,Pissinatti's Saki,Appendix II – Trade regulated
+7806,Mammalia,Pitheciidae,Pithecia pithecia,White-faced Saki,Appendix II – Trade regulated
+67936,Mammalia,Pitheciidae,Pithecia rylandsi,Rylands' Saki,Appendix II – Trade regulated
+68450,Mammalia,Pitheciidae,Pithecia vanzolinii,Vanzolini's Saki,Appendix II – Trade regulated
+101376,Mammalia,Pitheciidae,Plecturocebus aureipalatii,Golden Palace Titi,Appendix II – Trade regulated
+101377,Mammalia,Pitheciidae,Plecturocebus baptista,Baptista Lake Titi,Appendix II – Trade regulated
+101369,Mammalia,Pitheciidae,Plecturocebus bernhardi,Prince Bernhard's Titi,Appendix II – Trade regulated
+101364,Mammalia,Pitheciidae,Plecturocebus brunneus,Brown Titi,Appendix II – Trade regulated
+101374,Mammalia,Pitheciidae,Plecturocebus caligatus,Boots Titi,Appendix II – Trade regulated
+101368,Mammalia,Pitheciidae,Plecturocebus caquetensis,Caquetá Titi,Appendix II – Trade regulated
+101365,Mammalia,Pitheciidae,Plecturocebus cinerascens,Ashy Titi,Appendix II – Trade regulated
+101378,Mammalia,Pitheciidae,Plecturocebus cupreus,Coppery Titi,Appendix II – Trade regulated
+101371,Mammalia,Pitheciidae,Plecturocebus discolor,Red Titi,Appendix II – Trade regulated
+101373,Mammalia,Pitheciidae,Plecturocebus donacophilus,White-eared Titi,Appendix II – Trade regulated
+101388,Mammalia,Pitheciidae,Plecturocebus grovesi,Groves' Titi,Appendix II – Trade regulated
+101366,Mammalia,Pitheciidae,Plecturocebus hoffmannsi,Hoffmanns' Titi,Appendix II – Trade regulated
+101362,Mammalia,Pitheciidae,Plecturocebus miltoni,Milton's Titi,Appendix II – Trade regulated
+101363,Mammalia,Pitheciidae,Plecturocebus modestus,Modest Titi,Appendix II – Trade regulated
+101379,Mammalia,Pitheciidae,Plecturocebus moloch,Red-bellied Titi,Appendix II – Trade regulated
+101370,Mammalia,Pitheciidae,Plecturocebus oenanthe,Andean Titi,Appendix II – Trade regulated
+101367,Mammalia,Pitheciidae,Plecturocebus olallae,Olalla Brothers' Titi,Appendix II – Trade regulated
+101375,Mammalia,Pitheciidae,Plecturocebus ornatus,Ornate Titi,Appendix II – Trade regulated
+101372,Mammalia,Pitheciidae,Plecturocebus pallescens,White-coated Titi,Appendix II – Trade regulated
+101387,Mammalia,Pitheciidae,Plecturocebus urubambensis,Urubamba Brown Titi,Appendix II – Trade regulated
+101361,Mammalia,Pitheciidae,Plecturocebus vieirai,Vieira's Titi,Appendix II – Trade regulated
+4576,Mammalia,Tarsiidae,Tarsius bancanus,Horsfield's Tarsier,Appendix II – Trade regulated
+7535,Mammalia,Tarsiidae,Tarsius dentatus,Dian's Tarsier,Appendix II – Trade regulated
+5453,Mammalia,Tarsiidae,Tarsius lariang,Lariang Tarsier,Appendix II – Trade regulated
+10483,Mammalia,Tarsiidae,Tarsius pelengensis,Peleng Tarsier,Appendix II – Trade regulated
+10668,Mammalia,Tarsiidae,Tarsius pumilus,Pygmy Tarsier,Appendix II – Trade regulated
+6908,Mammalia,Tarsiidae,Tarsius sangirensis,Sangihe Tarsier,Appendix II – Trade regulated
+101078,Mammalia,Tarsiidae,Tarsius spectrumgurskyae,Gursky's Spectral Tarsier,Appendix II – Trade regulated
+101079,Mammalia,Tarsiidae,Tarsius supriatnai,Supriatna's Tarsier,Appendix II – Trade regulated
+3060,Mammalia,Tarsiidae,Tarsius syrichta,Philippine Tarsier,Appendix II – Trade regulated
+6077,Mammalia,Tarsiidae,Tarsius tarsier,Spectral Tarsier,Appendix II – Trade regulated
+7151,Mammalia,Tarsiidae,Tarsius tumpara,Siau Island Tarsier,Appendix II – Trade regulated
+5690,Mammalia,Elephantidae,Elephas maximus,Asian Elephant,Appendix I – Species threatened with extinction
+4521,Mammalia,Elephantidae,Loxodonta africana,African Bush Elephant,Appendix I / II – Status depends on population
+6015,Mammalia,Chinchillidae,Chinchilla chinchilla,Short-tailed Chinchilla,Appendix I – Species threatened with extinction
+8775,Mammalia,Chinchillidae,Chinchilla lanigera,Long-tailed Chinchilla,Appendix I – Species threatened with extinction
+8987,Mammalia,Cuniculidae,Cuniculus paca,Lowland Paca,Appendix III – National protection
+4693,Mammalia,Dasyproctidae,Dasyprocta punctata,Central American Agouti,Appendix III – National protection
+5368,Mammalia,Erethizontidae,Sphiggurus mexicanus,Mexican Hairy Dwarf Porcupine,Appendix III – National protection
+7122,Mammalia,Erethizontidae,Sphiggurus spinosus,Paraguayan Hairy Dwarf Porcupine,Appendix III – National protection
+9566,Mammalia,Muridae,Leporillus conditor,Greater Stick-nest Rat,Appendix II – Trade regulated
+10382,Mammalia,Muridae,Pseudomys fieldi,Alice Springs Mouse,Appendix II – Trade regulated
+4523,Mammalia,Muridae,Xeromys myoides,False Water Rat,Appendix II – Trade regulated
+5898,Mammalia,Muridae,Zyzomys pedunculatus,Central Rock Rat,Appendix II – Trade regulated
+7981,Mammalia,Sciuridae,Cynomys mexicanus,Mexican Prairie Dog,Appendix II – Trade regulated
+5312,Mammalia,Sciuridae,Marmota caudata,Long-tailed Marmot,Appendix III – National protection
+9329,Mammalia,Sciuridae,Marmota himalayana,Himalayan Marmot,Appendix III – National protection
+5485,Mammalia,Sciuridae,Ratufa affinis,Cream-coloured Giant Squirrel,Appendix II – Trade regulated
+7358,Mammalia,Sciuridae,Ratufa bicolor,Black Giant Squirrel,Appendix II – Trade regulated
+9376,Mammalia,Sciuridae,Ratufa indica,Indian Giant Squirrel,Appendix II – Trade regulated
+3741,Mammalia,Sciuridae,Ratufa macroura,Grizzled Giant Squirrel,Appendix II – Trade regulated
+6731,Mammalia,Ptilocercidae,Ptilocercus lowii,Pen-tailed Treeshrew,Appendix II – Trade regulated
+8714,Mammalia,Tupaiidae,Anathana ellioti,Indian Treeshrew,Appendix II – Trade regulated
+9616,Mammalia,Tupaiidae,Dendrogale melanura,Bornean Smooth-tailed Treeshrew,Appendix II – Trade regulated
+11182,Mammalia,Tupaiidae,Dendrogale murina,Indochinese Treeshrew,Appendix II – Trade regulated
+9383,Mammalia,Tupaiidae,Tupaia belangeri,Northern Treeshrew,Appendix II – Trade regulated
+5772,Mammalia,Tupaiidae,Tupaia chrysogaster,Golden-bellied Treeshrew,Appendix II – Trade regulated
+10932,Mammalia,Tupaiidae,Tupaia dorsalis,Striped Treeshrew,Appendix II – Trade regulated
+68353,Mammalia,Tupaiidae,Tupaia everetti,Mindanao Treeshrew,Appendix II – Trade regulated
+7607,Mammalia,Tupaiidae,Tupaia glis,Common Treeshrew,Appendix II – Trade regulated
+7644,Mammalia,Tupaiidae,Tupaia gracilis,Slender Treeshrew,Appendix II – Trade regulated
+6306,Mammalia,Tupaiidae,Tupaia javanica,Javan Treeshrew,Appendix II – Trade regulated
+8078,Mammalia,Tupaiidae,Tupaia longipes,Long-footed Treeshrew,Appendix II – Trade regulated
+4675,Mammalia,Tupaiidae,Tupaia minor,Pygmy Treeshrew,Appendix II – Trade regulated
+3297,Mammalia,Tupaiidae,Tupaia montana,Mountain Treeshrew,Appendix II – Trade regulated
+8580,Mammalia,Tupaiidae,Tupaia nicobarica,Nicobar Treeshrew,Appendix II – Trade regulated
+3725,Mammalia,Tupaiidae,Tupaia palawanensis,Palawan Treeshrew,Appendix II – Trade regulated
+9645,Mammalia,Tupaiidae,Tupaia picta,Painted Treeshrew,Appendix II – Trade regulated
+3205,Mammalia,Tupaiidae,Tupaia splendidula,Ruddy Treeshrew,Appendix II – Trade regulated
+7429,Mammalia,Tupaiidae,Tupaia tana,Large Treeshrew,Appendix II – Trade regulated
+3515,Mammalia,Dugongidae,Dugong dugon,Dugong,Appendix I – Species threatened with extinction
+9454,Mammalia,Trichechidae,Trichechus inunguis,Amazonian Manatee,Appendix I – Species threatened with extinction
+4548,Mammalia,Trichechidae,Trichechus manatus,West Indian Manatee,Appendix I – Species threatened with extinction
+4306,Mammalia,Trichechidae,Trichechus senegalensis,West African Manatee,Appendix I – Species threatened with extinction
