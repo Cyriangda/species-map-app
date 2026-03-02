@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Global Species Map")
 st.title("🌍 Global distribution of endangered species")
 
 # ------------------------------
@@ -12,6 +12,8 @@ st.title("🌍 Global distribution of endangered species")
 def load_data():
     df_dist = pd.read_csv("df_final.csv")
     df_species = pd.read_csv("df_species.csv")
+    
+    # Normaliser species_id
     df_dist["species_id"] = df_dist["species_id"].astype(str).str.strip()
     df_species["species_id"] = df_species["species_id"].astype(str).str.strip()
     return df_dist, df_species
@@ -19,14 +21,14 @@ def load_data():
 df_dist, df_species = load_data()
 
 # ------------------------------
-# Filtre statut
+# Filtre status
 # ------------------------------
 status_options = ["Native", "Introduced", "Reintroduced", "Extinct"]
 selected_status = st.selectbox("Select species status:", status_options)
 df_filtered = df_dist[df_dist["status"] == selected_status]
 
 # ------------------------------
-# Filtre classe optionnel
+# Filtre family optionnel
 # ------------------------------
 families_available = df_species["family"].dropna().unique()
 selected_family = st.selectbox("Optional: filter by family:", ["All"] + list(families_available))
@@ -44,11 +46,14 @@ col1.metric("Total species", total_species)
 col2.metric("Total countries", total_countries)
 
 # ------------------------------
-# Carte choropleth Plotly
+# Compter espèces par pays
 # ------------------------------
 country_counts = df_filtered.groupby("ISO3")["species_id"].nunique().reset_index()
 country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
 
+# ------------------------------
+# Carte choropleth Plotly
+# ------------------------------
 fig = px.choropleth(
     country_counts,
     locations="ISO3",
@@ -69,25 +74,27 @@ available_countries = country_counts["ISO3"].sort_values().unique()
 if len(available_countries) > 0:
     selected_country = st.selectbox("Select a country:", available_countries)
 
+    # Merge pour récupérer les caractéristiques
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country].merge(
-        df_species[["species_id", "class", "family", "full_name", "english_name", "cites_status"]],
+        df_species[["species_id", "family", "full_name", "english_name", "cites_status"]],
         on="species_id",
         how="left"
     )
+
+    # Remplacer les NaN par "Unknown"
+    species_in_country.fillna("Unknown", inplace=True)
 
     if species_in_country.empty:
         st.info("No species found.")
     else:
         for _, row in species_in_country.iterrows():
-            full_name = row.get("full_name", "Unknown name")
-            english_name = row.get("english_name", "")
-            species_class = row.get("class", "")
-            family = row.get("family", "")
-            cites = row.get("cites_status", "")
+            full_name = row.get("full_name", "Unknown")
+            english_name = row.get("english_name", "Unknown")
+            species_family = row.get("family", "Unknown")
+            cites = row.get("cites_status", "Unknown")
 
             with st.expander(f"{full_name} ({english_name})"):
-                st.markdown(f"**Class :** {species_class}")
-                st.markdown(f"**Family :** {family}")
+                st.markdown(f"**Family :** {species_family}")
                 st.markdown(f"**CITES status :** {cites}")
                 st.markdown(f"**Species ID :** {row['species_id']}")
 else:
