@@ -10,12 +10,16 @@ st.title("🌍 Global distribution of endangered species")
 # ------------------------------
 @st.cache_data
 def load_data():
+    # df_final.csv = distribution par pays
     df_dist = pd.read_csv("df_final.csv")
-    df_species = pd.read_csv("df_species.csv")
+    
+    # cites_listing_bdd.xlsx = infos sur les espèces
+    df_species = pd.read_excel("cites_listing_bdd.xlsx")
     
     # Normaliser species_id
     df_dist["species_id"] = df_dist["species_id"].astype(str).str.strip()
     df_species["species_id"] = df_species["species_id"].astype(str).str.strip()
+    
     return df_dist, df_species
 
 df_dist, df_species = load_data()
@@ -30,11 +34,12 @@ df_filtered = df_dist[df_dist["status"] == selected_status]
 # ------------------------------
 # Filtre family optionnel
 # ------------------------------
-families_available = df_species["family"].dropna().unique()
-selected_family = st.selectbox("Optional: filter by family:", ["All"] + list(families_available))
-if selected_family != "All":
-    species_ids_family = df_species[df_species["family"] == selected_family]["species_id"].unique()
-    df_filtered = df_filtered[df_filtered["species_id"].isin(species_ids_family)]
+if "family" in df_species.columns:
+    families_available = df_species["family"].dropna().unique()
+    selected_family = st.selectbox("Optional: filter by family:", ["All"] + list(families_available))
+    if selected_family != "All":
+        species_ids_family = df_species[df_species["family"] == selected_family]["species_id"].unique()
+        df_filtered = df_filtered[df_filtered["species_id"].isin(species_ids_family)]
 
 # ------------------------------
 # KPI
@@ -74,9 +79,9 @@ available_countries = country_counts["ISO3"].sort_values().unique()
 if len(available_countries) > 0:
     selected_country = st.selectbox("Select a country:", available_countries)
 
-    # Merge pour récupérer les caractéristiques
+    # Merge pour récupérer les caractéristiques depuis le fichier Excel
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country].merge(
-        df_species[["species_id", "family", "full_name", "english_name", "cites_status"]],
+        df_species,  # toutes les colonnes du Excel
         on="species_id",
         how="left"
     )
@@ -91,11 +96,11 @@ if len(available_countries) > 0:
             full_name = row.get("full_name", "Unknown")
             english_name = row.get("english_name", "Unknown")
             species_family = row.get("family", "Unknown")
-            cites = row.get("cites_status", "Unknown")
+            cites_status = row.get("cites_status", "Unknown")
 
             with st.expander(f"{full_name} ({english_name})"):
                 st.markdown(f"**Family :** {species_family}")
-                st.markdown(f"**CITES status :** {cites}")
+                st.markdown(f"**CITES status :** {cites_status}")
                 st.markdown(f"**Species ID :** {row['species_id']}")
 else:
     st.warning("No countries available for this status.")
