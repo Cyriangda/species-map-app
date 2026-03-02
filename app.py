@@ -10,11 +10,19 @@ st.title("🌍 Global distribution of endangered species")
 # ------------------------------
 @st.cache_data
 def load_data():
+    # CSV des distributions
     df_dist = pd.read_csv("df_final.csv")
+    
+    # Excel des espèces
     df_species = pd.read_excel("species_bdd.xlsx")
-
-    # Normaliser colonnes Excel : minuscules, underscore, pas d'espaces
-    df_species.columns = df_species.columns.str.strip().str.lower().str.replace(" ", "_")
+    
+    # Normaliser les colonnes pour qu'on puisse accéder avec les noms connus
+    df_species.columns = (
+        df_species.columns
+        .str.strip()
+        .str.lower()
+        .str.replace(" ", "_")
+    )
     
     # Normaliser species_id pour merge
     df_dist["species_id"] = df_dist["species_id"].astype(str).str.upper().str.strip()
