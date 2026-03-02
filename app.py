@@ -28,7 +28,7 @@ df_filtered = df_dist[df_dist["status"] == selected_status]
 # ------------------------------
 # Filtre classe optionnel
 # ------------------------------
-classes_available = df_species["family"].dropna().unique()
+families_available = df_species["family"].dropna().unique()
 selected_family = st.selectbox("Optional: filter by family:", ["All"] + list(families_available))
 if selected_family != "All":
     species_ids_family = df_species[df_species["family"] == selected_family]["species_id"].unique()
