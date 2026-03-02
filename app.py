@@ -49,10 +49,10 @@ col2.metric("Total countries", total_countries)
 # ------------------------------
 hover_data = df_filtered.groupby("ISO3").apply(
     lambda x: "<br>".join(x["full_name"].astype(str).tolist())
-).reset_index(name="species_list")
+).reset_index(name="Names of species")
 
 country_counts = df_filtered.groupby("ISO3")["species_id"].nunique().reset_index()
-country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
+country_counts.rename(columns={"species_id": "Number of species"}, inplace=True)
 
 country_counts = country_counts.merge(hover_data, on="ISO3", how="left")
 
@@ -64,7 +64,7 @@ fig = px.choropleth(
     locations="ISO3",
     color="Nombre d'espèces",
     hover_name="ISO3",
-    hover_data={"Nombre d'espèces": True, "species_list": True},
+    hover_data={"Number of species": True, "Name of species": True},
     color_continuous_scale="Reds",
     projection="natural earth"
 )
