@@ -93,22 +93,25 @@ if len(available_countries) > 0:
     # Remplacer les NaN par "Unknown"
     species_in_country.fillna("Unknown", inplace=True)
 
-    # Debug rapide pour vérifier que les colonnes sont bien remplies
-    st.write(species_in_country.head(5))
-
+    # ------------------------------
+    # Affichage espèces
+    # ------------------------------
     if species_in_country.empty:
         st.info("No species found.")
     else:
         for _, row in species_in_country.iterrows():
             data = row.to_dict()  # convertir la Series en dict pour .get()
             
-            full_name = data.get("full_name", "Unknown")
-            english_name = data.get("english_name", "Unknown")
-            species_family = data.get("family", "Unknown")
-            cites_status = data.get("cites_status", "Unknown")
-            species_id = data.get("species_id", "Unknown")
+            full_name = str(data.get("full_name", "Unknown"))
+            english_name = str(data.get("english_name", "Unknown"))
+            species_family = str(data.get("family", "Unknown"))
+            cites_status = str(data.get("cites_status", "Unknown"))
+            species_id = str(data.get("species_id", "Unknown"))
 
-            with st.expander(f"{full_name} ({english_name})"):
+            # Construire le titre de l'expander en string pur
+            expander_title = f"{full_name} ({english_name})"
+            
+            with st.expander(expander_title):
                 st.markdown(f"**Family :** {species_family}")
                 st.markdown(f"**CITES status :** {cites_status}")
                 st.markdown(f"**Species ID :** {species_id}")
