@@ -94,12 +94,14 @@ if len(available_countries) > 0:
         for species in species_list:
             full_name = str(species.get("full_name", "Unknown"))
             english_name = str(species.get("english_name", "Unknown"))
+            class = str(species.get("class", "Unknown"))
             family = str(species.get("family", "Unknown"))
             cites_status = str(species.get("cites_status", "Unknown"))
             species_id = str(species.get("species_id", "Unknown"))
 
             expander_title = f"{full_name} ({english_name})"
             with st.expander(expander_title):
+                st.markdown(f"**Class:** {class}")
                 st.markdown(f"**Family:** {family}")
                 st.markdown(f"**CITES status:** {cites_status}")
                 st.markdown(f"**Species ID:** {species_id}")
