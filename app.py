@@ -63,7 +63,7 @@ fig = px.choropleth(
     country_counts,
     locations="ISO3",
     color="Number of species",
-    hover_name="ISO3",
+    hover_name="country",
     hover_data={"Number of species": True, "Name of species": True},
     color_continuous_scale="Reds",
     projection="natural earth"
@@ -74,13 +74,13 @@ st.plotly_chart(fig, use_container_width=True)
 # ------------------------------
 # Sélection du pays (selectbox)
 # ------------------------------
-available_countries = country_counts["ISO3"].sort_values().unique()
+available_countries = country_counts["country"].sort_values().unique()
 st.subheader("🔎 Explore a country")
 selected_country = st.selectbox("Select a country:", ["All"] + list(available_countries))
 
 # Filtrer pour le pays sélectionné
 if selected_country != "All":
-    species_in_country = df_filtered[df_filtered["ISO3"] == selected_country]
+    species_in_country = df_filtered[df_filtered["country"] == selected_country]
 else:
     species_in_country = df_filtered.copy()
 
