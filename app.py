@@ -13,7 +13,7 @@ def load_data():
     df_dist = pd.read_csv("df_final.csv")
     df_species = pd.read_excel("cites_listing_bdd.xlsx")
     
-    # Normaliser les species_id (string, majuscules, strip)
+    # Normaliser species_id (string, majuscules, strip)
     df_dist["species_id"] = df_dist["species_id"].astype(str).str.upper().str.strip()
     df_species["species_id"] = df_species["species_id"].astype(str).str.upper().str.strip()
     
@@ -100,14 +100,17 @@ if len(available_countries) > 0:
         st.info("No species found.")
     else:
         for _, row in species_in_country.iterrows():
-            full_name = row.get("full_name", "Unknown")
-            english_name = row.get("english_name", "Unknown")
-            species_family = row.get("family", "Unknown")
-            cites_status = row.get("cites_status", "Unknown")
+            data = row.to_dict()  # convertir la Series en dict pour .get()
+            
+            full_name = data.get("full_name", "Unknown")
+            english_name = data.get("english_name", "Unknown")
+            species_family = data.get("family", "Unknown")
+            cites_status = data.get("cites_status", "Unknown")
+            species_id = data.get("species_id", "Unknown")
 
             with st.expander(f"{full_name} ({english_name})"):
                 st.markdown(f"**Family :** {species_family}")
                 st.markdown(f"**CITES status :** {cites_status}")
-                st.markdown(f"**Species ID :** {row['species_id']}")
+                st.markdown(f"**Species ID :** {species_id}")
 else:
     st.warning("No countries available for this status.")
