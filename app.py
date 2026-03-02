@@ -10,19 +10,23 @@ st.title("🌍 Global distribution of endangered species")
 # ------------------------------
 @st.cache_data
 def load_data():
-    # df_final.csv = distribution par pays
     df_dist = pd.read_csv("df_final.csv")
-    
-    # cites_listing_bdd.xlsx = infos sur les espèces
     df_species = pd.read_excel("cites_listing_bdd.xlsx")
     
-    # Normaliser species_id
-    df_dist["species_id"] = df_dist["species_id"].astype(str).str.strip()
-    df_species["species_id"] = df_species["species_id"].astype(str).str.strip()
+    # Normaliser les species_id (string, majuscules, strip)
+    df_dist["species_id"] = df_dist["species_id"].astype(str).str.upper().str.strip()
+    df_species["species_id"] = df_species["species_id"].astype(str).str.upper().str.strip()
     
     return df_dist, df_species
 
 df_dist, df_species = load_data()
+
+# ------------------------------
+# Debug IDs pour vérifier merge
+# ------------------------------
+matched = df_dist["species_id"].isin(df_species["species_id"]).sum()
+total = len(df_dist)
+st.write(f"{matched}/{total} species_id matchent entre df_final et cites_listing_bdd.xlsx")
 
 # ------------------------------
 # Filtre status
@@ -79,15 +83,18 @@ available_countries = country_counts["ISO3"].sort_values().unique()
 if len(available_countries) > 0:
     selected_country = st.selectbox("Select a country:", available_countries)
 
-    # Merge pour récupérer les caractéristiques depuis le fichier Excel
+    # Merge sécurisé pour récupérer les caractéristiques
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country].merge(
-        df_species,  # toutes les colonnes du Excel
+        df_species,
         on="species_id",
         how="left"
     )
 
     # Remplacer les NaN par "Unknown"
     species_in_country.fillna("Unknown", inplace=True)
+
+    # Debug rapide pour vérifier que les colonnes sont bien remplies
+    st.write(species_in_country.head(5))
 
     if species_in_country.empty:
         st.info("No species found.")
