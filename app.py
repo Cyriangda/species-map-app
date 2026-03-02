@@ -22,11 +22,9 @@ def load_data():
 df_dist, df_species = load_data()
 
 # ------------------------------
-# Vérifier correspondance des IDs
+# Filtrer les pays invalides (ISO3 = -99)
 # ------------------------------
-matched = df_dist["species_id"].isin(df_species["species_id"]).sum()
-total = len(df_dist)
-st.write(f"{matched}/{total} species_id matchent entre df_final et cites_listing_bdd.xlsx")
+df_dist = df_dist[df_dist["ISO3"] != "-99"]
 
 # ------------------------------
 # Filtre status
@@ -61,25 +59,30 @@ country_counts = df_filtered.groupby("ISO3")["species_id"].nunique().reset_index
 country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
 
 # ------------------------------
-# Carte choropleth Plotly
+# Containers séparés pour carte et liste d'espèces
 # ------------------------------
-fig = px.choropleth(
-    country_counts,
-    locations="ISO3",
-    color="Nombre d'espèces",
-    hover_name="ISO3",
-    color_continuous_scale="Reds",
-    projection="natural earth"
-)
-fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
-st.plotly_chart(fig, use_container_width=True)
+map_container = st.container()
+species_container = st.container()
 
 # ------------------------------
-# Sélection du pays
+# Carte choropleth
 # ------------------------------
-st.subheader(f"Select a country to see its species with status '{selected_status}'")
+with map_container:
+    fig = px.choropleth(
+        country_counts,
+        locations="ISO3",
+        color="Nombre d'espèces",
+        hover_name="ISO3",
+        color_continuous_scale="Reds",
+        projection="natural earth"
+    )
+    fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
+    st.plotly_chart(fig, use_container_width=True)
+
+# ------------------------------
+# Selectbox pour le pays
+# ------------------------------
 available_countries = country_counts["ISO3"].sort_values().unique()
-
 if len(available_countries) > 0:
     selected_country = st.selectbox("Select a country:", available_countries)
 
@@ -93,27 +96,29 @@ if len(available_countries) > 0:
     # Remplacer les NaN par "Unknown"
     species_in_country.fillna("Unknown", inplace=True)
 
-    # Convertir en liste de dicts pour éviter les problèmes d'affichage dans l'expander
+    # Convertir en liste de dicts pour l'affichage
     species_list = species_in_country.to_dict(orient="records")
 
     # ------------------------------
-    # Affichage espèces
+    # Liste espèces avec expanders
     # ------------------------------
-    if not species_list:
-        st.info("No species found.")
-    else:
-        for species in species_list:
-            full_name = str(species.get("full_name", "Unknown"))
-            english_name = str(species.get("english_name", "Unknown"))
-            species_family = str(species.get("family", "Unknown"))
-            cites_status = str(species.get("cites_status", "Unknown"))
-            species_id = str(species.get("species_id", "Unknown"))
+    with species_container:
+        st.subheader(f"Species in {selected_country} ({selected_status})")
+        if not species_list:
+            st.info("No species found.")
+        else:
+            for species in species_list:
+                full_name = str(species.get("full_name", "Unknown"))
+                english_name = str(species.get("english_name", "Unknown"))
+                family = str(species.get("family", "Unknown"))
+                cites_status = str(species.get("cites_status", "Unknown"))
+                species_id = str(species.get("species_id", "Unknown"))
 
-            expander_title = f"{full_name} ({english_name})"
+                expander_title = f"{full_name} ({english_name})"
 
-            with st.expander(expander_title):
-                st.markdown(f"**Family :** {species_family}")
-                st.markdown(f"**CITES status :** {cites_status}")
-                st.markdown(f"**Species ID :** {species_id}")
+                with st.expander(expander_title):
+                    st.markdown(f"**Family:** {family}")
+                    st.markdown(f"**CITES status:** {cites_status}")
+                    st.markdown(f"**Species ID:** {species_id}")
 else:
     st.warning("No countries available for this status.")
