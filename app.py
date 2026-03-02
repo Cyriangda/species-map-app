@@ -94,7 +94,7 @@ if len(available_countries) > 0:
         for species in species_list:
             full_name = str(species.get("full_name", "Unknown"))
             english_name = str(species.get("english_name", "Unknown"))
-            class = str(species.get("class", "Unknown"))
+            clas = str(species.get("class", "Unknown"))
             family = str(species.get("family", "Unknown"))
             cites_status = str(species.get("cites_status", "Unknown"))
             species_id = str(species.get("species_id", "Unknown"))
