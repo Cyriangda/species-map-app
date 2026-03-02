@@ -12,6 +12,7 @@ st.title("🌍 Global distribution of endangered species")
 def load_data():
     df = pd.read_csv("df_final.csv")
     df["species_id"] = df["species_id"].astype(str).str.upper().str.strip()
+    # Corriger Bolivia pour correspondre à ISO
     df["country"] = df["country"].replace({"Bolivia (Plurinational State of)": "Bolivia"})
     return df
 
@@ -71,27 +72,38 @@ fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
 st.plotly_chart(fig, use_container_width=True)
 
 # ------------------------------
-# Expanders pour chaque pays (optionnel)
+# Sélection du pays (selectbox)
 # ------------------------------
-st.subheader("Species details by country")
 available_countries = country_counts["ISO3"].sort_values().unique()
+st.subheader("🔎 Explore a country")
+selected_country = st.selectbox("Select a country:", ["All"] + list(available_countries))
 
-for iso3 in available_countries:
-    species_in_country = df_filtered[df_filtered["ISO3"] == iso3]
-    species_list = species_in_country.to_dict(orient="records")
-    
-    if not species_list:
-        continue
+# Filtrer pour le pays sélectionné
+if selected_country != "All":
+    species_in_country = df_filtered[df_filtered["ISO3"] == selected_country]
+else:
+    species_in_country = df_filtered.copy()
 
-    with st.expander(f"{iso3} ({len(species_list)} species)"):
-        for species in species_list:
-            full_name = str(species.get("full_name", "Unknown"))
-            english_name = str(species.get("english_name", "Unknown"))
-            family = str(species.get("family", "Unknown"))
-            cites_status = str(species.get("cites_status", "Unknown"))
-            species_id = str(species.get("species_id", "Unknown"))
+species_list = species_in_country.to_dict(orient="records")
 
-            with st.expander(f"{full_name} ({english_name})"):
-                st.markdown(f"**Family:** {family}")
-                st.markdown(f"**CITES status:** {cites_status}")
-                st.markdown(f"**Species ID:** {species_id}")
+# ------------------------------
+# Expanders pour chaque espèce
+# ------------------------------
+st.subheader(f"Species details ({len(species_list)} species)")
+if not species_list:
+    st.info("No species found for this selection.")
+else:
+    for species in species_list:
+        full_name = str(species.get("full_name", "Unknown"))
+        english_name = str(species.get("english_name", "Unknown"))
+        family = str(species.get("family", "Unknown"))
+        species_class = str(species.get("class", "Unknown"))
+        cites_status = str(species.get("cites_status", "Unknown"))
+        species_id = str(species.get("species_id", "Unknown"))
+
+        expander_title = f"{full_name} ({english_name})"
+        with st.expander(expander_title):
+            st.markdown(f"**Class:** {species_class}")
+            st.markdown(f"**Family:** {family}")
+            st.markdown(f"**CITES status:** {cites_status}")
+            st.markdown(f"**Species ID:** {species_id}")
