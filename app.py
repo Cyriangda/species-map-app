@@ -101,7 +101,7 @@ if len(available_countries) > 0:
 
             expander_title = f"{full_name} ({english_name})"
             with st.expander(expander_title):
-                st.markdown(f"**Class:** {class}")
+                st.markdown(f"**Class:** {clas}")
                 st.markdown(f"**Family:** {family}")
                 st.markdown(f"**CITES status:** {cites_status}")
                 st.markdown(f"**Species ID:** {species_id}")
