@@ -22,7 +22,7 @@ def load_data():
 df_dist, df_species = load_data()
 
 # ------------------------------
-# Debug IDs pour vérifier merge
+# Vérifier correspondance des IDs
 # ------------------------------
 matched = df_dist["species_id"].isin(df_species["species_id"]).sum()
 total = len(df_dist)
@@ -75,7 +75,7 @@ fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
 st.plotly_chart(fig, use_container_width=True)
 
 # ------------------------------
-# Selectbox pour choisir le pays
+# Sélection du pays
 # ------------------------------
 st.subheader(f"Select a country to see its species with status '{selected_status}'")
 available_countries = country_counts["ISO3"].sort_values().unique()
@@ -93,24 +93,24 @@ if len(available_countries) > 0:
     # Remplacer les NaN par "Unknown"
     species_in_country.fillna("Unknown", inplace=True)
 
+    # Convertir en liste de dicts pour éviter les problèmes d'affichage dans l'expander
+    species_list = species_in_country.to_dict(orient="records")
+
     # ------------------------------
     # Affichage espèces
     # ------------------------------
-    if species_in_country.empty:
+    if not species_list:
         st.info("No species found.")
     else:
-        for _, row in species_in_country.iterrows():
-            data = row.to_dict()  # convertir la Series en dict pour .get()
-            
-            full_name = str(data.get("full_name", "Unknown"))
-            english_name = str(data.get("english_name", "Unknown"))
-            species_family = str(data.get("family", "Unknown"))
-            cites_status = str(data.get("cites_status", "Unknown"))
-            species_id = str(data.get("species_id", "Unknown"))
+        for species in species_list:
+            full_name = str(species.get("full_name", "Unknown"))
+            english_name = str(species.get("english_name", "Unknown"))
+            species_family = str(species.get("family", "Unknown"))
+            cites_status = str(species.get("cites_status", "Unknown"))
+            species_id = str(species.get("species_id", "Unknown"))
 
-            # Construire le titre de l'expander en string pur
             expander_title = f"{full_name} ({english_name})"
-            
+
             with st.expander(expander_title):
                 st.markdown(f"**Family :** {species_family}")
                 st.markdown(f"**CITES status :** {cites_status}")
