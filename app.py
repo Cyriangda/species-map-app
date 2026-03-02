@@ -11,8 +11,12 @@ st.title("🌍 Global distribution of endangered species")
 @st.cache_data
 def load_data():
     df_dist = pd.read_csv("df_final.csv")
-    df_species = pd.read_excel("cites_listing_bdd.xlsx")
+    df_species = pd.read_excel("species_bdd.xlsx")
+
+    # Normaliser colonnes Excel : minuscules, underscore, pas d'espaces
+    df_species.columns = df_species.columns.str.strip().str.lower().str.replace(" ", "_")
     
+    # Normaliser species_id pour merge
     df_dist["species_id"] = df_dist["species_id"].astype(str).str.upper().str.strip()
     df_species["species_id"] = df_species["species_id"].astype(str).str.upper().str.strip()
     
@@ -58,7 +62,7 @@ country_counts = df_filtered.groupby("ISO3")["species_id"].nunique().reset_index
 country_counts.rename(columns={"species_id": "Nombre d'espèces"}, inplace=True)
 
 # ------------------------------
-# Carte
+# Carte choropleth
 # ------------------------------
 fig = px.choropleth(
     country_counts,
@@ -72,22 +76,23 @@ fig.update_layout(margin=dict(l=0, r=0, t=40, b=0))
 st.plotly_chart(fig, use_container_width=True)
 
 # ------------------------------
-# Selectbox pays
+# Sélection du pays
 # ------------------------------
 available_countries = country_counts["ISO3"].sort_values().unique()
 if len(available_countries) > 0:
     selected_country = st.selectbox("Select a country:", available_countries)
 
-    # Merge sécurisé pour récupérer les caractéristiques
+    # Merge sécurisé pour récupérer toutes les caractéristiques
     species_in_country = df_filtered[df_filtered["ISO3"] == selected_country].merge(
         df_species,
         on="species_id",
         how="left"
     )
 
+    # Remplacer NaN par "Unknown"
     species_in_country.fillna("Unknown", inplace=True)
 
-    # Convertir en liste de dicts
+    # Convertir en liste de dicts pour l'affichage
     species_list = species_in_country.to_dict(orient="records")
 
     # ------------------------------
@@ -98,7 +103,6 @@ if len(available_countries) > 0:
         st.info("No species found.")
     else:
         for species in species_list:
-            # Conversion en string pour tout afficher
             full_name = str(species.get("full_name", "Unknown"))
             english_name = str(species.get("english_name", "Unknown"))
             family = str(species.get("family", "Unknown"))
